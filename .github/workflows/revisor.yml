@@ -1,0 +1,39 @@
+name: Agente revisor
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # todos los días, 3:17 a. m. de Managua
+  workflow_dispatch:
+    inputs:
+      revisar_ahora:
+        description: "Opcional: dueño/repositorio o dirección web para revisar ya"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: revisor
+  cancel-in-progress: false
+
+jobs:
+  revisar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Revisar con Gemini
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          REVISAR_AHORA: ${{ inputs.revisar_ahora }}
+        run: python3 revisor.py
+      - name: Guardar informes
+        if: always()
+        run: |
+          git config user.name "agente-revisor"
+          git config user.email "agente-revisor@users.noreply.github.com"
+          git add -A informes estado.json .webs 2>/dev/null || true
+          git diff --cached --quiet || (git commit -q -m "Informes $(date -u +%F)" && git push -q)

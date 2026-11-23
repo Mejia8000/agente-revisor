@@ -1,0 +1,15 @@
+{
+  "_ayuda": "Para agregar más: escriba el nombre de la organización, el repositorio (dueño/nombre) o la dirección web en su lista. Se guarda y el agente lo toma en la próxima corrida.",
+  "organizaciones": ["google", "google-gemini", "google-deepmind", "NVIDIA"],
+  "repositorios": [],
+  "webs": [],
+  "limites": {
+    "repos_por_corrida": 15,
+    "lineas_max_por_repo": 15000,
+    "dias_atras_primera_vez": 7
+  },
+  "modelos": {
+    "gemini": "gemini-flash-latest",
+    "openrouter_respaldo": "auto-nemotron-gratis"
+  }
+}
