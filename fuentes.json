@@ -5,6 +5,7 @@
   "webs": [],
   "limites": {
     "repos_por_corrida": 15,
+    "min_estrellas": 100,
     "lineas_max_por_repo": 15000,
     "dias_atras_primera_vez": 7
   },

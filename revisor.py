@@ -157,6 +157,8 @@ def descubrir(est):
         nombre = r["full_name"]
         if r.get("fork") or r.get("archived") or nombre in en_cola:
             return
+        if r.get("stargazers_count", 0) < LIM.get("min_estrellas", 0) and nombre not in CFG["repositorios"]:
+            return
         if r["pushed_at"] > est["repos"].get(nombre, {}).get("pushed", ""):
             est["cola"].append({"repo": nombre, "pushed": r["pushed_at"], "estrellas": r.get("stargazers_count", 0)})
             en_cola.add(nombre)
@@ -176,7 +178,9 @@ def descubrir(est):
         considerar(gh(f"/repos/{nombre}"))
     # Lo más importante primero (más estrellas); lo que lleva más de 14 días esperando se descarta.
     limite = (dt.datetime.utcnow() - dt.timedelta(days=14)).isoformat() + "Z"
-    est["cola"] = sorted([c for c in est["cola"] if c["pushed"] >= limite or c["repo"] in CFG["repositorios"]],
+    minimo = LIM.get("min_estrellas", 0)
+    est["cola"] = sorted([c for c in est["cola"] if c["repo"] in CFG["repositorios"]
+                          or (c["pushed"] >= limite and c["estrellas"] >= minimo)],
                          key=lambda c: -c["estrellas"])
 
 
@@ -328,7 +332,7 @@ def main():
         except Exception as e:
             log("  Error, queda para la próxima:", e)
         guardar_estado(est)
-        time.sleep(20)  # no pasar el límite gratuito por minuto
+        time.sleep(60)  # Gemini gratis se satura por minuto con códigos grandes
     log("Pendientes en cola:", len(est["cola"]))
 
 
