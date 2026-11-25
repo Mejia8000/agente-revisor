@@ -14,5 +14,5 @@ Código listo (23 nov. 2026). Corre gratis en GitHub Actions; Gemini lee y escri
 Editar `fuentes.json`: `organizaciones`, `repositorios` (dueño/nombre) o `webs` (direcciones). Para revisar algo ya: Actions → Agente revisor → Run workflow → escribir el repositorio o la web.
 
 ## Dónde quedó y qué sigue
-- Falta: crear el repositorio, subir el código y poner los secretos GEMINI_API_KEY y OPENROUTER_API_KEY.
+- 25 nov. 2026: repo y secretos listos. La 1.ª corrida trabajó 69 min pero no guardó nada: `git add` fallaba porque la carpeta `.webs` no existía. Corregido (`git add -A`) y ahora se guarda `ultima-corrida.log` para diagnosticar.
 - Después de la primera semana: ajustar `repos_por_corrida` según el límite diario gratis de Gemini (sin confirmar cuántas solicitudes da hoy).
