@@ -3,6 +3,9 @@ name: Agente revisor
 on:
   schedule:
     - cron: "17 9 * * *"   # todos los días, 3:17 a. m. de Managua
+  push:                    # al cambiar fuentes.json o el código, corre enseguida
+    branches: [main]
+    paths: ["fuentes.json", "revisor.py", ".github/workflows/revisor.yml"]
   workflow_dispatch:
     inputs:
       revisar_ahora:
