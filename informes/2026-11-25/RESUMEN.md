@@ -1,0 +1,15 @@
+- [google-gemini/gemini-cli](google-gemini_gemini-cli.md) — Un asistente de inteligencia artificial para la terminal que ayuda a programar, pensado principalmente para empresas con licencias de Gemini Code Assist en Google Cloud.
+- [google/guava](google_guava.md) — Es una colección de herramientas y componentes esenciales de Google para programar en el lenguaje Java.
+- [google/styleguide](google_styleguide.md) — Este repositorio de Google reúne guías gratuitas de estilo para escribir código en muchos lenguajes de programación.
+- [google/langextract](google_langextract.md) — LangExtract es una librería de Python de Google que extrae datos estructurados de textos con IA y marca exactamente dónde aparece cada dato en el texto original.
+- [NVIDIA/SkillSpector](NVIDIA_SkillSpector.md) — SkillSpector es un escáner gratuito de NVIDIA que revisa habilidades de agentes de inteligencia artificial antes de instalarlas para buscar vulnerabilidades, patrones maliciosos y riesgos de seguridad.
+- [google/flatbuffers](google_flatbuffers.md) — FlatBuffers es una biblioteca gratuita de Google para guardar y leer datos estructurados rápidamente sin convertirlos primero.
+- [google/skills](google_skills.md) — Este repositorio público de Google contiene habilidades y scripts listos para usar que ayudan a agentes de IA a configurar y operar productos de Google Cloud, como Gemini, GKE y BigQuery.
+- [google/gson](google_gson.md) — Gson es una biblioteca gratuita de Java que convierte objetos Java a texto JSON y viceversa.
+- [NVIDIA/NemoClaw](NVIDIA_NemoClaw.md) — NVIDIA NemoClaw es una herramienta gratuita de NVIDIA para ejecutar agentes de inteligencia artificial de forma más segura dentro de entornos aislados llamados OpenShell.
+- [google/elephant-goldfish-model](google_elephant-goldfish-model.md) — EGM es un plugin gratuito de código abierto para diseñar y revisar especificaciones de software con asistentes de inteligencia artificial.
+- [google/adk-python](google_adk-python.md) — ADK es una herramienta gratuita de Google en Python para crear, probar y desplegar agentes de IA que usan modelos como Gemini.
+- [google/fonts](google_fonts.md) — El repositorio google/fonts guarda los archivos de letra de Google Fonts para que cualquiera los descargue y use.
+- [google/filament](google_filament.md) — Filament es un motor gratuito de Google para crear gráficos 3D realistas en tiempo real en celulares, computadoras y navegadores web.
+- [google/cadvisor](google_cadvisor.md) — ver informe
+- [google/magika](google_magika.md) — Magika es una herramienta gratuita de código abierto que usa inteligencia artificial para detectar el tipo de contenido de archivos.

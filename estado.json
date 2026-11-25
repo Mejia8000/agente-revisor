@@ -1,0 +1,2783 @@
+{
+ "ultima": "2026-11-25T21:56:16.709869Z",
+ "repos": {
+  "google-gemini/gemini-cli": {
+   "sha": "60f8082b14ffa7f10b608270232f3f57b5abbec8",
+   "pushed": "2026-11-25T18:19:00Z",
+   "revisado": "2026-11-25"
+  },
+  "google/guava": {
+   "sha": "f0169e46f676fee232ce3432f8275a872aecd6fe",
+   "pushed": "2026-11-25T20:44:34Z",
+   "revisado": "2026-11-25"
+  },
+  "google/styleguide": {
+   "sha": "8bdadbb0732b387aaa26f553dd9033484d1a2071",
+   "pushed": "2026-11-19T17:48:54Z",
+   "revisado": "2026-11-25"
+  },
+  "google/langextract": {
+   "sha": "b3499195e5ee711d3bb7da5178ba40456046f5f3",
+   "pushed": "2026-11-25T19:27:54Z",
+   "revisado": "2026-11-25"
+  },
+  "NVIDIA/SkillSpector": {
+   "sha": "02894ec5b8a0a70637df5a6b45763de92940cedd",
+   "pushed": "2026-11-25T22:05:57Z",
+   "revisado": "2026-11-25"
+  },
+  "google/flatbuffers": {
+   "sha": "5eb190f00005b8dd1aa4f7ab2db9f01a39e3c76d",
+   "pushed": "2026-11-23T13:45:02Z",
+   "revisado": "2026-11-25"
+  },
+  "google/skills": {
+   "sha": "b315c2eea312b624f3fbe60018a6f741dd558ebb",
+   "pushed": "2026-11-25T19:07:49Z",
+   "revisado": "2026-11-25"
+  },
+  "google/gson": {
+   "sha": "d9b5079eaa4567219771bba6d04289cf45c7589b",
+   "pushed": "2026-11-22T01:14:15Z",
+   "revisado": "2026-11-25"
+  },
+  "NVIDIA/NemoClaw": {
+   "sha": "dbdb0bac9f8a75ea0af90de51d6fb93b55e2fa92",
+   "pushed": "2026-11-25T22:07:44Z",
+   "revisado": "2026-11-25"
+  },
+  "google/elephant-goldfish-model": {
+   "sha": "46933754e63c0424daa9c270d7e0734245d79560",
+   "pushed": "2026-11-25T16:52:54Z",
+   "revisado": "2026-11-25"
+  },
+  "google/adk-python": {
+   "sha": "9fd6b330e6cd5d02bd3604d8e8a31fced17b0286",
+   "pushed": "2026-11-25T20:58:30Z",
+   "revisado": "2026-11-25"
+  },
+  "google/fonts": {
+   "sha": "6ebe737e44fd64ee736bbc6feed6136a6dbfd222",
+   "pushed": "2026-11-25T13:52:21Z",
+   "revisado": "2026-11-25"
+  },
+  "google/filament": {
+   "sha": "863e7d72420e99f4efbed8cafa6a343f3407018d",
+   "pushed": "2026-11-25T07:40:17Z",
+   "revisado": "2026-11-25"
+  },
+  "google/cadvisor": {
+   "sha": "cacca250d06e88212b7ac5aa8198d1be064e0ab3",
+   "pushed": "2026-11-20T16:00:13Z",
+   "revisado": "2026-11-25"
+  },
+  "google/magika": {
+   "sha": "9be2a0a89f1f7fc3be421fd00f9deb09706db5c5",
+   "pushed": "2026-11-24T09:45:20Z",
+   "revisado": "2026-11-25"
+  }
+ },
+ "cola": [
+  {
+   "repo": "google-deepmind/mujoco",
+   "pushed": "2026-11-25T20:30:46Z",
+   "estrellas": 18484
+  },
+  {
+   "repo": "NVIDIA/Megatron-LM",
+   "pushed": "2026-11-25T21:53:17Z",
+   "estrellas": 18478
+  },
+  {
+   "repo": "google/libphonenumber",
+   "pushed": "2026-11-24T09:57:22Z",
+   "estrellas": 18366
+  },
+  {
+   "repo": "google-gemini/cookbook",
+   "pushed": "2026-11-25T14:03:04Z",
+   "estrellas": 17984
+  },
+  {
+   "repo": "NVIDIA/open-gpu-kernel-modules",
+   "pushed": "2026-11-23T21:59:56Z",
+   "estrellas": 17640
+  },
+  {
+   "repo": "google/brotli",
+   "pushed": "2026-11-25T13:16:02Z",
+   "estrellas": 15157
+  },
+  {
+   "repo": "NVIDIA/TensorRT-LLM",
+   "pushed": "2026-11-25T21:43:39Z",
+   "estrellas": 15134
+  },
+  {
+   "repo": "NVIDIA/auto-ontology",
+   "pushed": "2026-11-25T21:11:18Z",
+   "estrellas": 14929
+  },
+  {
+   "repo": "google/ax",
+   "pushed": "2026-11-25T21:40:04Z",
+   "estrellas": 14894
+  },
+  {
+   "repo": "google/or-tools",
+   "pushed": "2026-11-25T15:35:53Z",
+   "estrellas": 14457
+  },
+  {
+   "repo": "google/yapf",
+   "pushed": "2026-11-20T16:01:03Z",
+   "estrellas": 13990
+  },
+  {
+   "repo": "NVIDIA/TensorRT",
+   "pushed": "2026-11-18T22:35:20Z",
+   "estrellas": 13485
+  },
+  {
+   "repo": "google/oss-fuzz",
+   "pushed": "2026-11-25T20:27:36Z",
+   "estrellas": 12988
+  },
+  {
+   "repo": "google/guice",
+   "pushed": "2026-11-20T14:56:02Z",
+   "estrellas": 12736
+  },
+  {
+   "repo": "NVIDIA/cosmos",
+   "pushed": "2026-11-19T05:20:52Z",
+   "estrellas": 12462
+  },
+  {
+   "repo": "google/sentencepiece",
+   "pushed": "2026-11-25T10:06:28Z",
+   "estrellas": 12182
+  },
+  {
+   "repo": "google/osv-scanner",
+   "pushed": "2026-11-25T20:56:43Z",
+   "estrellas": 11628
+  },
+  {
+   "repo": "google/go-github",
+   "pushed": "2026-11-25T17:23:17Z",
+   "estrellas": 11344
+  },
+  {
+   "repo": "google/skia",
+   "pushed": "2026-11-25T19:46:50Z",
+   "estrellas": 11051
+  },
+  {
+   "repo": "NVIDIA/cutlass",
+   "pushed": "2026-11-25T02:16:17Z",
+   "estrellas": 10773
+  },
+  {
+   "repo": "google/adk-recipes",
+   "pushed": "2026-11-25T18:05:41Z",
+   "estrellas": 10680
+  },
+  {
+   "repo": "google/auto",
+   "pushed": "2026-11-20T16:49:10Z",
+   "estrellas": 10563
+  },
+  {
+   "repo": "google/benchmark",
+   "pushed": "2026-11-25T20:04:24Z",
+   "estrellas": 10540
+  },
+  {
+   "repo": "NVIDIA/garak",
+   "pushed": "2026-11-23T20:48:46Z",
+   "estrellas": 10182
+  },
+  {
+   "repo": "google/go-cloud",
+   "pushed": "2026-11-24T00:47:06Z",
+   "estrellas": 9935
+  },
+  {
+   "repo": "NVIDIA/cudf",
+   "pushed": "2026-11-25T21:51:20Z",
+   "estrellas": 9806
+  },
+  {
+   "repo": "NVIDIA/apex",
+   "pushed": "2026-11-23T22:24:38Z",
+   "estrellas": 9015
+  },
+  {
+   "repo": "google/adk-go",
+   "pushed": "2026-11-25T17:07:41Z",
+   "estrellas": 9009
+  },
+  {
+   "repo": "google-deepmind/alphafold3",
+   "pushed": "2026-11-19T11:19:02Z",
+   "estrellas": 8814
+  },
+  {
+   "repo": "google/closure-compiler",
+   "pushed": "2026-11-25T20:20:09Z",
+   "estrellas": 7707
+  },
+  {
+   "repo": "NVIDIA/warp",
+   "pushed": "2026-11-25T21:41:09Z",
+   "estrellas": 7354
+  },
+  {
+   "repo": "google/error-prone",
+   "pushed": "2026-11-25T18:22:45Z",
+   "estrellas": 7280
+  },
+  {
+   "repo": "google/gemma.cpp",
+   "pushed": "2026-11-25T19:55:34Z",
+   "estrellas": 7089
+  },
+  {
+   "repo": "google/perfetto",
+   "pushed": "2026-11-25T21:52:31Z",
+   "estrellas": 6835
+  },
+  {
+   "repo": "google/wireit",
+   "pushed": "2026-11-25T11:42:44Z",
+   "estrellas": 6435
+  },
+  {
+   "repo": "google/syzkaller",
+   "pushed": "2026-11-25T15:47:46Z",
+   "estrellas": 6424
+  },
+  {
+   "repo": "google/agents-cli",
+   "pushed": "2026-11-24T18:35:07Z",
+   "estrellas": 6401
+  },
+  {
+   "repo": "google/google-java-format",
+   "pushed": "2026-11-25T17:44:43Z",
+   "estrellas": 6233
+  },
+  {
+   "repo": "google/j2objc",
+   "pushed": "2026-11-25T01:34:36Z",
+   "estrellas": 6035
+  },
+  {
+   "repo": "google/highway",
+   "pushed": "2026-11-25T15:06:13Z",
+   "estrellas": 5991
+  },
+  {
+   "repo": "google-deepmind/gemma",
+   "pushed": "2026-11-25T17:26:24Z",
+   "estrellas": 5879
+  },
+  {
+   "repo": "NVIDIA/DALI",
+   "pushed": "2026-11-25T14:38:06Z",
+   "estrellas": 5805
+  },
+  {
+   "repo": "google/EarlGrey",
+   "pushed": "2026-11-25T06:11:24Z",
+   "estrellas": 5701
+  },
+  {
+   "repo": "google/seesaw",
+   "pushed": "2026-11-23T02:17:42Z",
+   "estrellas": 5679
+  },
+  {
+   "repo": "NVIDIA/Model-Optimizer",
+   "pushed": "2026-11-25T21:55:17Z",
+   "estrellas": 5667
+  },
+  {
+   "repo": "google/clusterfuzz",
+   "pushed": "2026-11-25T18:57:26Z",
+   "estrellas": 5641
+  },
+  {
+   "repo": "google/tcmalloc",
+   "pushed": "2026-11-25T20:54:45Z",
+   "estrellas": 5414
+  },
+  {
+   "repo": "NVIDIA/cuml",
+   "pushed": "2026-11-25T21:47:22Z",
+   "estrellas": 5327
+  },
+  {
+   "repo": "NVIDIA/nccl",
+   "pushed": "2026-11-24T16:46:32Z",
+   "estrellas": 5264
+  },
+  {
+   "repo": "google/wuffs",
+   "pushed": "2026-11-23T22:13:23Z",
+   "estrellas": 4895
+  },
+  {
+   "repo": "google-gemini/gemini-skills",
+   "pushed": "2026-11-19T17:07:10Z",
+   "estrellas": 4743
+  },
+  {
+   "repo": "NVIDIA/nvidia-container-toolkit",
+   "pushed": "2026-11-24T22:24:17Z",
+   "estrellas": 4653
+  },
+  {
+   "repo": "NVIDIA/SkillEvaluator",
+   "pushed": "2026-11-25T21:47:04Z",
+   "estrellas": 4547
+  },
+  {
+   "repo": "google-deepmind/mujoco_menagerie",
+   "pushed": "2026-11-24T00:44:44Z",
+   "estrellas": 4420
+  },
+  {
+   "repo": "google/nsjail",
+   "pushed": "2026-11-20T11:22:52Z",
+   "estrellas": 4207
+  },
+  {
+   "repo": "NVIDIA/skills",
+   "pushed": "2026-11-25T21:35:06Z",
+   "estrellas": 4153
+  },
+  {
+   "repo": "google/go-containerregistry",
+   "pushed": "2026-11-25T02:34:29Z",
+   "estrellas": 4147
+  },
+  {
+   "repo": "google/oboe",
+   "pushed": "2026-11-25T00:02:10Z",
+   "estrellas": 4143
+  },
+  {
+   "repo": "google/angle",
+   "pushed": "2026-11-25T16:40:45Z",
+   "estrellas": 4126
+  },
+  {
+   "repo": "NVIDIA/cuda-rust",
+   "pushed": "2026-11-25T14:35:40Z",
+   "estrellas": 4102
+  },
+  {
+   "repo": "google/copybara",
+   "pushed": "2026-11-24T18:56:46Z",
+   "estrellas": 3950
+  },
+  {
+   "repo": "NVIDIA/k8s-device-plugin",
+   "pushed": "2026-11-25T17:36:04Z",
+   "estrellas": 3931
+  },
+  {
+   "repo": "NVIDIA/TransformerEngine",
+   "pushed": "2026-11-25T21:45:59Z",
+   "estrellas": 3615
+  },
+  {
+   "repo": "google/zopfli",
+   "pushed": "2026-11-21T00:27:05Z",
+   "estrellas": 3612
+  },
+  {
+   "repo": "google/recaptcha",
+   "pushed": "2026-11-19T11:22:51Z",
+   "estrellas": 3581
+  },
+  {
+   "repo": "google/earthengine-api",
+   "pushed": "2026-11-24T21:00:20Z",
+   "estrellas": 3504
+  },
+  {
+   "repo": "google/OpenSK",
+   "pushed": "2026-11-24T12:28:51Z",
+   "estrellas": 3495
+  },
+  {
+   "repo": "google/ksp",
+   "pushed": "2026-11-20T13:31:58Z",
+   "estrellas": 3485
+  },
+  {
+   "repo": "NVIDIA/physicsnemo",
+   "pushed": "2026-11-25T17:56:38Z",
+   "estrellas": 3480
+  },
+  {
+   "repo": "NVIDIA/cuda-python",
+   "pushed": "2026-11-25T21:21:02Z",
+   "estrellas": 3420
+  },
+  {
+   "repo": "google/differential-privacy",
+   "pushed": "2026-11-25T11:22:34Z",
+   "estrellas": 3380
+  },
+  {
+   "repo": "google/bindiff",
+   "pushed": "2026-11-20T13:17:54Z",
+   "estrellas": 3253
+  },
+  {
+   "repo": "google/osv.dev",
+   "pushed": "2026-11-25T18:51:18Z",
+   "estrellas": 3090
+  },
+  {
+   "repo": "google/mozc",
+   "pushed": "2026-11-25T10:52:13Z",
+   "estrellas": 3044
+  },
+  {
+   "repo": "NVIDIA/NeMo-Retriever",
+   "pushed": "2026-11-24T16:41:11Z",
+   "estrellas": 3016
+  },
+  {
+   "repo": "NVIDIA/gpu-operator",
+   "pushed": "2026-11-25T21:39:26Z",
+   "estrellas": 2995
+  },
+  {
+   "repo": "google-gemini/gemini-api-cli",
+   "pushed": "2026-11-25T18:51:18Z",
+   "estrellas": 2993
+  },
+  {
+   "repo": "google/breakpad",
+   "pushed": "2026-11-24T22:08:47Z",
+   "estrellas": 2906
+  },
+  {
+   "repo": "google/mantis",
+   "pushed": "2026-11-23T18:43:44Z",
+   "estrellas": 2825
+  },
+  {
+   "repo": "google/starlark-go",
+   "pushed": "2026-11-25T15:14:55Z",
+   "estrellas": 2800
+  },
+  {
+   "repo": "google/truth",
+   "pushed": "2026-11-24T17:58:37Z",
+   "estrellas": 2792
+  },
+  {
+   "repo": "NVIDIA/NeMo-Agent-Toolkit",
+   "pushed": "2026-11-25T20:55:08Z",
+   "estrellas": 2713
+  },
+  {
+   "repo": "google/zerocopy",
+   "pushed": "2026-11-25T21:51:04Z",
+   "estrellas": 2649
+  },
+  {
+   "repo": "google/googlesql",
+   "pushed": "2026-11-18T22:15:57Z",
+   "estrellas": 2644
+  },
+  {
+   "repo": "NVIDIA/cccl",
+   "pushed": "2026-11-25T21:51:03Z",
+   "estrellas": 2588
+  },
+  {
+   "repo": "google/swiftshader",
+   "pushed": "2026-11-25T15:01:50Z",
+   "estrellas": 2571
+  },
+  {
+   "repo": "NVIDIA/CUDALibrarySamples",
+   "pushed": "2026-11-24T22:49:13Z",
+   "estrellas": 2554
+  },
+  {
+   "repo": "google/tunix",
+   "pushed": "2026-11-25T20:00:29Z",
+   "estrellas": 2521
+  },
+  {
+   "repo": "google/XNNPACK",
+   "pushed": "2026-11-25T21:28:17Z",
+   "estrellas": 2508
+  },
+  {
+   "repo": "NVIDIA/stdexec",
+   "pushed": "2026-11-25T21:52:21Z",
+   "estrellas": 2495
+  },
+  {
+   "repo": "google-deepmind/optax",
+   "pushed": "2026-11-24T16:10:27Z",
+   "estrellas": 2370
+  },
+  {
+   "repo": "google-deepmind/mujoco_playground",
+   "pushed": "2026-11-25T18:30:22Z",
+   "estrellas": 2348
+  },
+  {
+   "repo": "google/boringssl",
+   "pushed": "2026-11-25T18:00:12Z",
+   "estrellas": 2303
+  },
+  {
+   "repo": "NVIDIA/accelerated-computing-hub",
+   "pushed": "2026-11-23T09:48:16Z",
+   "estrellas": 2256
+  },
+  {
+   "repo": "google-deepmind/alphagenome",
+   "pushed": "2026-11-24T11:50:39Z",
+   "estrellas": 2255
+  },
+  {
+   "repo": "NVIDIA/cutile-python",
+   "pushed": "2026-11-25T11:40:45Z",
+   "estrellas": 2174
+  },
+  {
+   "repo": "google/xls",
+   "pushed": "2026-11-25T20:42:20Z",
+   "estrellas": 1992
+  },
+  {
+   "repo": "NVIDIA/aistore",
+   "pushed": "2026-11-25T21:26:16Z",
+   "estrellas": 1974
+  },
+  {
+   "repo": "google-deepmind/concordia",
+   "pushed": "2026-11-19T16:44:40Z",
+   "estrellas": 1927
+  },
+  {
+   "repo": "google/nomulus",
+   "pushed": "2026-11-25T19:25:02Z",
+   "estrellas": 1820
+  },
+  {
+   "repo": "google/budoux",
+   "pushed": "2026-11-25T03:02:54Z",
+   "estrellas": 1811
+  },
+  {
+   "repo": "NVIDIA/Personal-AI-Router",
+   "pushed": "2026-11-25T17:26:09Z",
+   "estrellas": 1796
+  },
+  {
+   "repo": "google/adk-java",
+   "pushed": "2026-11-25T20:42:33Z",
+   "estrellas": 1782
+  },
+  {
+   "repo": "google-deepmind/mujoco_mpc",
+   "pushed": "2026-11-24T00:51:11Z",
+   "estrellas": 1776
+  },
+  {
+   "repo": "google/sandboxed-api",
+   "pushed": "2026-11-25T20:18:41Z",
+   "estrellas": 1775
+  },
+  {
+   "repo": "NVIDIA/nccl-tests",
+   "pushed": "2026-11-24T03:32:29Z",
+   "estrellas": 1713
+  },
+  {
+   "repo": "google-deepmind/mujoco_warp",
+   "pushed": "2026-11-25T20:17:24Z",
+   "estrellas": 1658
+  },
+  {
+   "repo": "google/GNM",
+   "pushed": "2026-11-25T14:03:44Z",
+   "estrellas": 1655
+  },
+  {
+   "repo": "google/meridian",
+   "pushed": "2026-11-25T21:52:02Z",
+   "estrellas": 1616
+  },
+  {
+   "repo": "google/neuroglancer",
+   "pushed": "2026-11-25T10:55:25Z",
+   "estrellas": 1589
+  },
+  {
+   "repo": "google/tensorstore",
+   "pushed": "2026-11-25T01:34:19Z",
+   "estrellas": 1555
+  },
+  {
+   "repo": "google/adk-docs",
+   "pushed": "2026-11-25T21:38:56Z",
+   "estrellas": 1542
+  },
+  {
+   "repo": "NVIDIA/deepops",
+   "pushed": "2026-11-24T23:48:55Z",
+   "estrellas": 1499
+  },
+  {
+   "repo": "google/adk-js",
+   "pushed": "2026-11-25T13:31:50Z",
+   "estrellas": 1491
+  },
+  {
+   "repo": "google/flogger",
+   "pushed": "2026-11-24T01:53:33Z",
+   "estrellas": 1481
+  },
+  {
+   "repo": "NVIDIA/MatX",
+   "pushed": "2026-11-23T22:16:19Z",
+   "estrellas": 1455
+  },
+  {
+   "repo": "google/agentmesh",
+   "pushed": "2026-11-25T16:13:53Z",
+   "estrellas": 1417
+  },
+  {
+   "repo": "google/conscrypt",
+   "pushed": "2026-11-24T13:55:49Z",
+   "estrellas": 1414
+  },
+  {
+   "repo": "google/site-kit-wp",
+   "pushed": "2026-11-25T19:56:09Z",
+   "estrellas": 1405
+  },
+  {
+   "repo": "google-deepmind/formal-conjectures",
+   "pushed": "2026-11-24T15:36:54Z",
+   "estrellas": 1400
+  },
+  {
+   "repo": "google/j2cl",
+   "pushed": "2026-11-25T20:01:07Z",
+   "estrellas": 1383
+  },
+  {
+   "repo": "google/crosvm",
+   "pushed": "2026-11-25T18:23:03Z",
+   "estrellas": 1370
+  },
+  {
+   "repo": "google/re2j",
+   "pushed": "2026-11-25T21:23:04Z",
+   "estrellas": 1263
+  },
+  {
+   "repo": "NVIDIA/kvpress",
+   "pushed": "2026-11-23T10:47:13Z",
+   "estrellas": 1259
+  },
+  {
+   "repo": "NVIDIA/earth2studio",
+   "pushed": "2026-11-24T23:22:36Z",
+   "estrellas": 1256
+  },
+  {
+   "repo": "google/google-toolbox-for-mac",
+   "pushed": "2026-11-23T14:58:09Z",
+   "estrellas": 1228
+  },
+  {
+   "repo": "google/dawn",
+   "pushed": "2026-11-25T21:23:13Z",
+   "estrellas": 1221
+  },
+  {
+   "repo": "NVIDIA/cuda-quantum",
+   "pushed": "2026-11-25T21:46:44Z",
+   "estrellas": 1208
+  },
+  {
+   "repo": "google/capslock",
+   "pushed": "2026-11-24T03:13:06Z",
+   "estrellas": 1191
+  },
+  {
+   "repo": "google/crubit",
+   "pushed": "2026-11-25T21:52:27Z",
+   "estrellas": 1155
+  },
+  {
+   "repo": "NVIDIA/libnvidia-container",
+   "pushed": "2026-11-18T23:49:47Z",
+   "estrellas": 1141
+  },
+  {
+   "repo": "NVIDIA/cuopt",
+   "pushed": "2026-11-25T19:06:07Z",
+   "estrellas": 1130
+  },
+  {
+   "repo": "google/transit",
+   "pushed": "2026-11-24T07:59:17Z",
+   "estrellas": 1106
+  },
+  {
+   "repo": "google/fuzztest",
+   "pushed": "2026-11-25T18:49:43Z",
+   "estrellas": 1077
+  },
+  {
+   "repo": "NVIDIA/raft",
+   "pushed": "2026-11-24T17:40:23Z",
+   "estrellas": 1056
+  },
+  {
+   "repo": "google/kati",
+   "pushed": "2026-11-19T20:14:36Z",
+   "estrellas": 1028
+  },
+  {
+   "repo": "google/tsunami-security-scanner-plugins",
+   "pushed": "2026-11-25T07:56:15Z",
+   "estrellas": 1023
+  },
+  {
+   "repo": "NVIDIA/cudf-spark",
+   "pushed": "2026-11-25T19:57:46Z",
+   "estrellas": 1022
+  },
+  {
+   "repo": "NVIDIA/NVFlare",
+   "pushed": "2026-11-25T20:35:42Z",
+   "estrellas": 1017
+  },
+  {
+   "repo": "NVIDIA/cudnn-frontend",
+   "pushed": "2026-11-25T21:22:32Z",
+   "estrellas": 1014
+  },
+  {
+   "repo": "google/nearby",
+   "pushed": "2026-11-24T23:31:42Z",
+   "estrellas": 992
+  },
+  {
+   "repo": "google/packetdrill",
+   "pushed": "2026-11-19T04:10:35Z",
+   "estrellas": 978
+  },
+  {
+   "repo": "NVIDIA/nvbench",
+   "pushed": "2026-11-24T01:38:01Z",
+   "estrellas": 955
+  },
+  {
+   "repo": "google/heir",
+   "pushed": "2026-11-25T21:28:33Z",
+   "estrellas": 953
+  },
+  {
+   "repo": "google/langfun",
+   "pushed": "2026-11-20T19:01:52Z",
+   "estrellas": 921
+  },
+  {
+   "repo": "google/paranoid_crypto",
+   "pushed": "2026-11-25T14:55:54Z",
+   "estrellas": 915
+  },
+  {
+   "repo": "google/quiche",
+   "pushed": "2026-11-25T21:43:43Z",
+   "estrellas": 911
+  },
+  {
+   "repo": "NVIDIA/cuvs",
+   "pushed": "2026-11-25T20:59:32Z",
+   "estrellas": 907
+  },
+  {
+   "repo": "google/capirca",
+   "pushed": "2026-11-20T18:30:00Z",
+   "estrellas": 860
+  },
+  {
+   "repo": "NVIDIA/TileGym",
+   "pushed": "2026-11-25T14:07:02Z",
+   "estrellas": 849
+  },
+  {
+   "repo": "NVIDIA/hyperflare-inference",
+   "pushed": "2026-11-25T21:40:59Z",
+   "estrellas": 843
+  },
+  {
+   "repo": "NVIDIA/DCGM",
+   "pushed": "2026-11-24T20:33:39Z",
+   "estrellas": 821
+  },
+  {
+   "repo": "google/grain",
+   "pushed": "2026-11-25T01:42:43Z",
+   "estrellas": 812
+  },
+  {
+   "repo": "google/turbinia",
+   "pushed": "2026-11-24T03:23:56Z",
+   "estrellas": 796
+  },
+  {
+   "repo": "google/android-cuttlefish",
+   "pushed": "2026-11-25T21:24:37Z",
+   "estrellas": 762
+  },
+  {
+   "repo": "google/mobly",
+   "pushed": "2026-11-25T12:47:11Z",
+   "estrellas": 762
+  },
+  {
+   "repo": "google-deepmind/torax",
+   "pushed": "2026-11-25T19:46:48Z",
+   "estrellas": 757
+  },
+  {
+   "repo": "google/oauth2l",
+   "pushed": "2026-11-24T22:52:27Z",
+   "estrellas": 747
+  },
+  {
+   "repo": "google/clspv",
+   "pushed": "2026-11-24T12:10:57Z",
+   "estrellas": 739
+  },
+  {
+   "repo": "google/openhtf",
+   "pushed": "2026-11-24T23:02:08Z",
+   "estrellas": 734
+  },
+  {
+   "repo": "NVIDIA/torch-harmonics",
+   "pushed": "2026-11-25T16:04:36Z",
+   "estrellas": 731
+  },
+  {
+   "repo": "google/horologist",
+   "pushed": "2026-11-25T16:49:49Z",
+   "estrellas": 707
+  },
+  {
+   "repo": "google/closure-templates",
+   "pushed": "2026-11-25T15:50:54Z",
+   "estrellas": 703
+  },
+  {
+   "repo": "google/jsir",
+   "pushed": "2026-11-25T07:59:51Z",
+   "estrellas": 688
+  },
+  {
+   "repo": "google/yggdrasil-decision-forests",
+   "pushed": "2026-11-25T10:57:32Z",
+   "estrellas": 681
+  },
+  {
+   "repo": "NVIDIA/cuCollections",
+   "pushed": "2026-11-25T19:01:43Z",
+   "estrellas": 679
+  },
+  {
+   "repo": "google/kube-startup-cpu-boost",
+   "pushed": "2026-11-20T13:22:52Z",
+   "estrellas": 673
+  },
+  {
+   "repo": "google/santa-tracker-web",
+   "pushed": "2026-11-20T19:27:52Z",
+   "estrellas": 670
+  },
+  {
+   "repo": "google/osv-scalibr",
+   "pushed": "2026-11-25T19:25:04Z",
+   "estrellas": 664
+  },
+  {
+   "repo": "NVIDIA/cosmos-framework",
+   "pushed": "2026-11-24T02:07:09Z",
+   "estrellas": 661
+  },
+  {
+   "repo": "google/cctz",
+   "pushed": "2026-11-23T19:00:36Z",
+   "estrellas": 660
+  },
+  {
+   "repo": "google/playground-elements",
+   "pushed": "2026-11-24T05:12:24Z",
+   "estrellas": 649
+  },
+  {
+   "repo": "google/cameratrapai",
+   "pushed": "2026-11-25T00:01:53Z",
+   "estrellas": 593
+  },
+  {
+   "repo": "google/bumble",
+   "pushed": "2026-11-24T15:32:01Z",
+   "estrellas": 593
+  },
+  {
+   "repo": "google-gemini/gemini-live-api-examples",
+   "pushed": "2026-11-23T21:37:04Z",
+   "estrellas": 584
+  },
+  {
+   "repo": "google/dotprompt",
+   "pushed": "2026-11-18T22:00:11Z",
+   "estrellas": 579
+  },
+  {
+   "repo": "google/cronet-transport-for-okhttp",
+   "pushed": "2026-11-20T10:59:55Z",
+   "estrellas": 578
+  },
+  {
+   "repo": "google/protobuf.dart",
+   "pushed": "2026-11-20T12:00:02Z",
+   "estrellas": 571
+  },
+  {
+   "repo": "google/llvm-propeller",
+   "pushed": "2026-11-23T20:23:02Z",
+   "estrellas": 559
+  },
+  {
+   "repo": "NVIDIA/flashdreams",
+   "pushed": "2026-11-25T21:19:53Z",
+   "estrellas": 549
+  },
+  {
+   "repo": "google/mcp-security",
+   "pushed": "2026-11-20T18:34:55Z",
+   "estrellas": 546
+  },
+  {
+   "repo": "google/orbax",
+   "pushed": "2026-11-25T21:29:49Z",
+   "estrellas": 541
+  },
+  {
+   "repo": "google/mug",
+   "pushed": "2026-11-25T05:47:18Z",
+   "estrellas": 540
+  },
+  {
+   "repo": "NVIDIA/structured-data-models",
+   "pushed": "2026-11-25T21:29:39Z",
+   "estrellas": 539
+  },
+  {
+   "repo": "google/play-services-plugins",
+   "pushed": "2026-11-24T00:22:40Z",
+   "estrellas": 527
+  },
+  {
+   "repo": "google/xrblocks",
+   "pushed": "2026-11-24T18:07:26Z",
+   "estrellas": 523
+  },
+  {
+   "repo": "NVIDIA/NeMo-text-processing",
+   "pushed": "2026-11-25T07:51:53Z",
+   "estrellas": 518
+  },
+  {
+   "repo": "google/dart-neats",
+   "pushed": "2026-11-23T13:28:36Z",
+   "estrellas": 512
+  },
+  {
+   "repo": "google/cloud-forensics-utils",
+   "pushed": "2026-11-20T06:00:59Z",
+   "estrellas": 511
+  },
+  {
+   "repo": "NVIDIA/cuda-checkpoint",
+   "pushed": "2026-11-20T18:10:26Z",
+   "estrellas": 511
+  },
+  {
+   "repo": "google/three-live",
+   "pushed": "2026-11-25T00:04:43Z",
+   "estrellas": 509
+  },
+  {
+   "repo": "google/safebrowsing",
+   "pushed": "2026-11-25T19:06:56Z",
+   "estrellas": 502
+  },
+  {
+   "repo": "google/riegeli",
+   "pushed": "2026-11-25T18:11:07Z",
+   "estrellas": 499
+  },
+  {
+   "repo": "NVIDIA/aicr",
+   "pushed": "2026-11-25T21:53:24Z",
+   "estrellas": 487
+  },
+  {
+   "repo": "NVIDIA/cuopt-examples",
+   "pushed": "2026-11-25T17:26:18Z",
+   "estrellas": 473
+  },
+  {
+   "repo": "google/digitalbuildings",
+   "pushed": "2026-11-25T18:26:12Z",
+   "estrellas": 470
+  },
+  {
+   "repo": "google/deps.dev",
+   "pushed": "2026-11-24T22:59:15Z",
+   "estrellas": 466
+  },
+  {
+   "repo": "NVIDIA/aerial-cuda-accelerated-ran",
+   "pushed": "2026-11-24T22:13:05Z",
+   "estrellas": 465
+  },
+  {
+   "repo": "NVIDIA/cuEquivariance",
+   "pushed": "2026-11-25T03:44:55Z",
+   "estrellas": 454
+  },
+  {
+   "repo": "google/go-attestation",
+   "pushed": "2026-11-22T22:52:45Z",
+   "estrellas": 453
+  },
+  {
+   "repo": "NVIDIA/IsaacCapture",
+   "pushed": "2026-11-25T21:50:04Z",
+   "estrellas": 449
+  },
+  {
+   "repo": "NVIDIA/NVSentinel",
+   "pushed": "2026-11-25T21:34:41Z",
+   "estrellas": 447
+  },
+  {
+   "repo": "google/googletest-rust",
+   "pushed": "2026-11-24T16:09:03Z",
+   "estrellas": 443
+  },
+  {
+   "repo": "NVIDIA/JAX-Toolbox",
+   "pushed": "2026-11-25T21:29:09Z",
+   "estrellas": 442
+  },
+  {
+   "repo": "google/TestParameterInjector",
+   "pushed": "2026-11-25T16:21:26Z",
+   "estrellas": 427
+  },
+  {
+   "repo": "NVIDIA/cuda-q-academic",
+   "pushed": "2026-11-25T21:16:33Z",
+   "estrellas": 422
+  },
+  {
+   "repo": "google/silifuzz",
+   "pushed": "2026-11-25T19:15:52Z",
+   "estrellas": 420
+  },
+  {
+   "repo": "google-deepmind/dm_env",
+   "pushed": "2026-11-24T23:19:49Z",
+   "estrellas": 411
+  },
+  {
+   "repo": "NVIDIA/makani",
+   "pushed": "2026-11-25T15:27:32Z",
+   "estrellas": 407
+  },
+  {
+   "repo": "google/keep-sorted",
+   "pushed": "2026-11-20T21:06:40Z",
+   "estrellas": 406
+  },
+  {
+   "repo": "google/alioth",
+   "pushed": "2026-11-25T01:00:00Z",
+   "estrellas": 400
+  },
+  {
+   "repo": "google/minijail",
+   "pushed": "2026-11-22T04:50:50Z",
+   "estrellas": 399
+  },
+  {
+   "repo": "NVIDIA/Megatron-Energon",
+   "pushed": "2026-11-25T15:13:10Z",
+   "estrellas": 391
+  },
+  {
+   "repo": "google/CommonLoopUtils",
+   "pushed": "2026-11-25T04:48:21Z",
+   "estrellas": 371
+  },
+  {
+   "repo": "NVIDIA/recsys-examples",
+   "pushed": "2026-11-23T06:45:37Z",
+   "estrellas": 369
+  },
+  {
+   "repo": "google/ffn",
+   "pushed": "2026-11-21T10:59:25Z",
+   "estrellas": 366
+  },
+  {
+   "repo": "google/vanir",
+   "pushed": "2026-11-22T00:42:20Z",
+   "estrellas": 365
+  },
+  {
+   "repo": "NVIDIA/nvidia-resiliency-ext",
+   "pushed": "2026-11-25T17:42:00Z",
+   "estrellas": 359
+  },
+  {
+   "repo": "google/libultrahdr",
+   "pushed": "2026-11-20T23:42:24Z",
+   "estrellas": 358
+  },
+  {
+   "repo": "google/jetpack-camera-app",
+   "pushed": "2026-11-25T21:45:03Z",
+   "estrellas": 353
+  },
+  {
+   "repo": "google/rax",
+   "pushed": "2026-11-23T21:03:46Z",
+   "estrellas": 342
+  },
+  {
+   "repo": "NVIDIA/DeepStream",
+   "pushed": "2026-11-24T21:37:01Z",
+   "estrellas": 339
+  },
+  {
+   "repo": "google/jni-bind",
+   "pushed": "2026-11-20T23:39:58Z",
+   "estrellas": 337
+  },
+  {
+   "repo": "google/bughunters",
+   "pushed": "2026-11-23T13:56:43Z",
+   "estrellas": 336
+  },
+  {
+   "repo": "google-deepmind/kfac-jax",
+   "pushed": "2026-11-20T17:56:50Z",
+   "estrellas": 334
+  },
+  {
+   "repo": "google/adk-kotlin",
+   "pushed": "2026-11-25T20:31:55Z",
+   "estrellas": 313
+  },
+  {
+   "repo": "google/go-tpm-tools",
+   "pushed": "2026-11-23T23:35:19Z",
+   "estrellas": 312
+  },
+  {
+   "repo": "google/flutter-mediapipe",
+   "pushed": "2026-11-21T00:22:16Z",
+   "estrellas": 308
+  },
+  {
+   "repo": "NVIDIA/nsight-python",
+   "pushed": "2026-11-20T10:27:01Z",
+   "estrellas": 303
+  },
+  {
+   "repo": "google-deepmind/code-verification",
+   "pushed": "2026-11-20T00:08:57Z",
+   "estrellas": 300
+  },
+  {
+   "repo": "NVIDIA/TensorRT-Model-Connect",
+   "pushed": "2026-11-25T19:34:39Z",
+   "estrellas": 300
+  },
+  {
+   "repo": "google/bigframes",
+   "pushed": "2026-11-25T20:07:15Z",
+   "estrellas": 299
+  },
+  {
+   "repo": "google/ground-android",
+   "pushed": "2026-11-23T22:24:40Z",
+   "estrellas": 299
+  },
+  {
+   "repo": "NVIDIA/kubevirt-gpu-device-plugin",
+   "pushed": "2026-11-24T12:44:08Z",
+   "estrellas": 296
+  },
+  {
+   "repo": "google/gtm-session-fetcher",
+   "pushed": "2026-11-23T14:58:45Z",
+   "estrellas": 292
+  },
+  {
+   "repo": "NVIDIA/OSMO",
+   "pushed": "2026-11-24T22:05:56Z",
+   "estrellas": 291
+  },
+  {
+   "repo": "google-deepmind/robotics-antigravity-plugin",
+   "pushed": "2026-11-25T02:50:22Z",
+   "estrellas": 284
+  },
+  {
+   "repo": "google-deepmind/gbench",
+   "pushed": "2026-11-24T18:34:30Z",
+   "estrellas": 284
+  },
+  {
+   "repo": "NVIDIA/NeMo-Speech.cpp",
+   "pushed": "2026-11-22T07:43:43Z",
+   "estrellas": 282
+  },
+  {
+   "repo": "NVIDIA/VisRTX",
+   "pushed": "2026-11-25T15:45:38Z",
+   "estrellas": 281
+  },
+  {
+   "repo": "google-deepmind/onetwo",
+   "pushed": "2026-11-20T18:01:51Z",
+   "estrellas": 277
+  },
+  {
+   "repo": "NVIDIA/mig-parted",
+   "pushed": "2026-11-24T21:12:43Z",
+   "estrellas": 269
+  },
+  {
+   "repo": "NVIDIA/NeMo-Relay",
+   "pushed": "2026-11-25T20:55:52Z",
+   "estrellas": 260
+  },
+  {
+   "repo": "NVIDIA/nvalchemi-toolkit-ops",
+   "pushed": "2026-11-25T17:57:06Z",
+   "estrellas": 256
+  },
+  {
+   "repo": "google/ground-platform",
+   "pushed": "2026-11-25T19:59:07Z",
+   "estrellas": 254
+  },
+  {
+   "repo": "google/weather-tools",
+   "pushed": "2026-11-23T16:42:44Z",
+   "estrellas": 254
+  },
+  {
+   "repo": "NVIDIA/nvalchemi-toolkit",
+   "pushed": "2026-11-23T19:40:28Z",
+   "estrellas": 248
+  },
+  {
+   "repo": "NVIDIA/Deep-Learning-Accelerator-SW",
+   "pushed": "2026-11-23T02:27:16Z",
+   "estrellas": 242
+  },
+  {
+   "repo": "google/mdbook-i18n-helpers",
+   "pushed": "2026-11-24T17:25:54Z",
+   "estrellas": 227
+  },
+  {
+   "repo": "NVIDIA/kumo-engine",
+   "pushed": "2026-11-25T21:42:50Z",
+   "estrellas": 215
+  },
+  {
+   "repo": "NVIDIA/nvkind",
+   "pushed": "2026-11-23T18:30:15Z",
+   "estrellas": 214
+  },
+  {
+   "repo": "google/automotive-design-compose",
+   "pushed": "2026-11-24T13:16:13Z",
+   "estrellas": 211
+  },
+  {
+   "repo": "google/scaaml",
+   "pushed": "2026-11-24T08:19:21Z",
+   "estrellas": 210
+  },
+  {
+   "repo": "NVIDIA/simready-foundation",
+   "pushed": "2026-11-25T17:54:00Z",
+   "estrellas": 204
+  },
+  {
+   "repo": "NVIDIA/ncore",
+   "pushed": "2026-11-25T10:47:29Z",
+   "estrellas": 200
+  },
+  {
+   "repo": "NVIDIA/gpu-driver-container",
+   "pushed": "2026-11-25T05:36:06Z",
+   "estrellas": 200
+  },
+  {
+   "repo": "google/gonids",
+   "pushed": "2026-11-21T18:05:54Z",
+   "estrellas": 199
+  },
+  {
+   "repo": "google/minimalloc",
+   "pushed": "2026-11-25T01:46:02Z",
+   "estrellas": 198
+  },
+  {
+   "repo": "NVIDIA/auto-ontology-eval",
+   "pushed": "2026-11-25T19:26:32Z",
+   "estrellas": 197
+  },
+  {
+   "repo": "google/tpu-sync",
+   "pushed": "2026-11-25T21:05:31Z",
+   "estrellas": 196
+  },
+  {
+   "repo": "google/oss-fuzz-vulns",
+   "pushed": "2026-11-25T15:23:08Z",
+   "estrellas": 195
+  },
+  {
+   "repo": "google/capsem",
+   "pushed": "2026-11-22T12:55:12Z",
+   "estrellas": 191
+  },
+  {
+   "repo": "google/adk-python-community",
+   "pushed": "2026-11-23T16:59:24Z",
+   "estrellas": 188
+  },
+  {
+   "repo": "google/postcss-rename",
+   "pushed": "2026-11-20T16:51:43Z",
+   "estrellas": 186
+  },
+  {
+   "repo": "google/skia-buildbot",
+   "pushed": "2026-11-25T08:15:48Z",
+   "estrellas": 178
+  },
+  {
+   "repo": "google/eDistantObject",
+   "pushed": "2026-11-25T04:41:26Z",
+   "estrellas": 176
+  },
+  {
+   "repo": "google-deepmind/jeo",
+   "pushed": "2026-11-19T10:16:30Z",
+   "estrellas": 175
+  },
+  {
+   "repo": "NVIDIA/cudf-spark-examples",
+   "pushed": "2026-11-20T09:05:15Z",
+   "estrellas": 175
+  },
+  {
+   "repo": "google/hackable_diffusion",
+   "pushed": "2026-11-25T15:45:58Z",
+   "estrellas": 172
+  },
+  {
+   "repo": "NVIDIA/vgpu-device-manager",
+   "pushed": "2026-11-24T01:43:54Z",
+   "estrellas": 170
+  },
+  {
+   "repo": "google/elemental2",
+   "pushed": "2026-11-25T20:00:23Z",
+   "estrellas": 169
+  },
+  {
+   "repo": "NVIDIA/physicsnemo-cfd",
+   "pushed": "2026-11-19T21:10:42Z",
+   "estrellas": 166
+  },
+  {
+   "repo": "google/multichase",
+   "pushed": "2026-11-24T17:27:49Z",
+   "estrellas": 165
+  },
+  {
+   "repo": "NVIDIA/k8s-nim-operator",
+   "pushed": "2026-11-24T13:43:03Z",
+   "estrellas": 165
+  },
+  {
+   "repo": "NVIDIA/nvImageCodec",
+   "pushed": "2026-11-19T07:44:21Z",
+   "estrellas": 164
+  },
+  {
+   "repo": "NVIDIA/go-dcgm",
+   "pushed": "2026-11-23T22:07:55Z",
+   "estrellas": 161
+  },
+  {
+   "repo": "google/apitools",
+   "pushed": "2026-11-20T19:19:11Z",
+   "estrellas": 159
+  },
+  {
+   "repo": "google/fleetspeak",
+   "pushed": "2026-11-25T14:43:31Z",
+   "estrellas": 158
+  },
+  {
+   "repo": "google/saxml",
+   "pushed": "2026-11-19T22:08:35Z",
+   "estrellas": 158
+  },
+  {
+   "repo": "google/nsscache",
+   "pushed": "2026-11-24T00:52:50Z",
+   "estrellas": 156
+  },
+  {
+   "repo": "NVIDIA/gontainer",
+   "pushed": "2026-11-23T15:26:51Z",
+   "estrellas": 156
+  },
+  {
+   "repo": "google/safetext",
+   "pushed": "2026-11-24T14:24:22Z",
+   "estrellas": 152
+  },
+  {
+   "repo": "google/certificate-transparency-community-site",
+   "pushed": "2026-11-24T11:23:32Z",
+   "estrellas": 151
+  },
+  {
+   "repo": "NVIDIA/edk2-nvidia",
+   "pushed": "2026-11-20T15:30:30Z",
+   "estrellas": 151
+  },
+  {
+   "repo": "google/fleetbench",
+   "pushed": "2026-11-24T17:07:23Z",
+   "estrellas": 150
+  },
+  {
+   "repo": "NVIDIA/CompileIQ",
+   "pushed": "2026-11-20T20:41:47Z",
+   "estrellas": 150
+  },
+  {
+   "repo": "NVIDIA/compute-eval",
+   "pushed": "2026-11-19T00:03:45Z",
+   "estrellas": 150
+  },
+  {
+   "repo": "google/qwix",
+   "pushed": "2026-11-25T01:50:36Z",
+   "estrellas": 149
+  },
+  {
+   "repo": "google/safevalues",
+   "pushed": "2026-11-20T01:12:46Z",
+   "estrellas": 149
+  },
+  {
+   "repo": "google/earthengine-catalog",
+   "pushed": "2026-11-24T17:38:40Z",
+   "estrellas": 148
+  },
+  {
+   "repo": "google/carfac",
+   "pushed": "2026-11-24T05:08:59Z",
+   "estrellas": 147
+  },
+  {
+   "repo": "NVIDIA/nemoclaw-community",
+   "pushed": "2026-11-25T01:13:31Z",
+   "estrellas": 147
+  },
+  {
+   "repo": "google/tsec",
+   "pushed": "2026-11-24T22:32:34Z",
+   "estrellas": 146
+  },
+  {
+   "repo": "google/array_record",
+   "pushed": "2026-11-24T09:01:15Z",
+   "estrellas": 145
+  },
+  {
+   "repo": "google-gemini/api-examples",
+   "pushed": "2026-11-24T19:06:58Z",
+   "estrellas": 143
+  },
+  {
+   "repo": "NVIDIA/tensor-ir",
+   "pushed": "2026-11-20T17:09:14Z",
+   "estrellas": 142
+  },
+  {
+   "repo": "NVIDIA/ais-k8s",
+   "pushed": "2026-11-25T04:46:23Z",
+   "estrellas": 139
+  },
+  {
+   "repo": "NVIDIA/ansible-role-nvidia-driver",
+   "pushed": "2026-11-20T16:05:25Z",
+   "estrellas": 136
+  },
+  {
+   "repo": "google/shell-encryption",
+   "pushed": "2026-11-23T18:33:09Z",
+   "estrellas": 134
+  },
+  {
+   "repo": "google/web-game-samples",
+   "pushed": "2026-11-23T04:07:58Z",
+   "estrellas": 133
+  },
+  {
+   "repo": "google/sbsim",
+   "pushed": "2026-11-24T15:03:39Z",
+   "estrellas": 132
+  },
+  {
+   "repo": "google/jaxite",
+   "pushed": "2026-11-25T21:56:03Z",
+   "estrellas": 128
+  },
+  {
+   "repo": "NVIDIA/MagnumIO",
+   "pushed": "2026-11-23T22:54:49Z",
+   "estrellas": 127
+  },
+  {
+   "repo": "google-deepmind/tf2jax",
+   "pushed": "2026-11-25T17:15:42Z",
+   "estrellas": 125
+  },
+  {
+   "repo": "google/aarch64-esr-decoder",
+   "pushed": "2026-11-25T10:00:55Z",
+   "estrellas": 124
+  },
+  {
+   "repo": "NVIDIA/Ising-Decoding",
+   "pushed": "2026-11-23T23:37:19Z",
+   "estrellas": 124
+  },
+  {
+   "repo": "google/doubleml-pipeline",
+   "pushed": "2026-11-25T15:19:21Z",
+   "estrellas": 123
+  },
+  {
+   "repo": "NVIDIA/cudaq-qec",
+   "pushed": "2026-11-25T04:43:30Z",
+   "estrellas": 122
+  },
+  {
+   "repo": "NVIDIA/elements",
+   "pushed": "2026-11-25T14:34:46Z",
+   "estrellas": 120
+  },
+  {
+   "repo": "NVIDIA/NV-Kernels",
+   "pushed": "2026-11-24T17:19:43Z",
+   "estrellas": 120
+  },
+  {
+   "repo": "NVIDIA/k8s-test-infra",
+   "pushed": "2026-11-25T21:32:45Z",
+   "estrellas": 119
+  },
+  {
+   "repo": "google/webcrypto.dart",
+   "pushed": "2026-11-19T12:48:58Z",
+   "estrellas": 115
+  },
+  {
+   "repo": "google/container-explorer",
+   "pushed": "2026-11-25T01:00:29Z",
+   "estrellas": 110
+  },
+  {
+   "repo": "google/tsl",
+   "pushed": "2026-11-24T12:03:07Z",
+   "estrellas": 110
+  },
+  {
+   "repo": "google-deepmind/amplio",
+   "pushed": "2026-11-19T20:01:03Z",
+   "estrellas": 110
+  },
+  {
+   "repo": "NVIDIA/xr-ai",
+   "pushed": "2026-11-25T20:46:22Z",
+   "estrellas": 110
+  },
+  {
+   "repo": "NVIDIA/NeMo-Agent-Toolkit-UI",
+   "pushed": "2026-11-23T21:47:18Z",
+   "estrellas": 110
+  },
+  {
+   "repo": "google/ink",
+   "pushed": "2026-11-25T20:21:34Z",
+   "estrellas": 108
+  },
+  {
+   "repo": "NVIDIA/doca-platform",
+   "pushed": "2026-11-25T13:02:23Z",
+   "estrellas": 108
+  },
+  {
+   "repo": "NVIDIA/cloudai",
+   "pushed": "2026-11-25T21:00:28Z",
+   "estrellas": 105
+  },
+  {
+   "repo": "google/go-tdx-guest",
+   "pushed": "2026-11-23T22:06:28Z",
+   "estrellas": 102
+  },
+  {
+   "repo": "google/googet",
+   "pushed": "2026-11-19T16:00:12Z",
+   "estrellas": 102
+  },
+  {
+   "repo": "google/turbine",
+   "pushed": "2026-11-23T22:23:10Z",
+   "estrellas": 101
+  },
+  {
+   "repo": "google/eclipsa-audio-plugin",
+   "pushed": "2026-11-19T17:58:18Z",
+   "estrellas": 101
+  },
+  {
+   "repo": "NVIDIA/harmonizer",
+   "pushed": "2026-11-25T08:42:52Z",
+   "estrellas": 101
+  },
+  {
+   "repo": "google-deepmind/formal-quantum-computation",
+   "pushed": "2026-11-23T16:21:58Z",
+   "estrellas": 99
+  },
+  {
+   "repo": "NVIDIA/multi-storage-client",
+   "pushed": "2026-11-25T21:45:08Z",
+   "estrellas": 96
+  },
+  {
+   "repo": "NVIDIA/cluster-readiness-engine",
+   "pushed": "2026-11-25T15:29:07Z",
+   "estrellas": 96
+  },
+  {
+   "repo": "NVIDIA/srt-slurm",
+   "pushed": "2026-11-25T16:53:58Z",
+   "estrellas": 95
+  },
+  {
+   "repo": "google/init2winit",
+   "pushed": "2026-11-23T19:44:24Z",
+   "estrellas": 94
+  },
+  {
+   "repo": "google/hdmitsuba",
+   "pushed": "2026-11-25T21:43:50Z",
+   "estrellas": 93
+  },
+  {
+   "repo": "google/pdl",
+   "pushed": "2026-11-25T15:26:21Z",
+   "estrellas": 91
+  },
+  {
+   "repo": "google/gtasks-md",
+   "pushed": "2026-11-23T03:11:44Z",
+   "estrellas": 91
+  },
+  {
+   "repo": "google/webrisk",
+   "pushed": "2026-11-25T19:16:11Z",
+   "estrellas": 90
+  },
+  {
+   "repo": "NVIDIA/knavigator",
+   "pushed": "2026-11-24T13:41:31Z",
+   "estrellas": 88
+  },
+  {
+   "repo": "google/device-infra",
+   "pushed": "2026-11-25T20:10:35Z",
+   "estrellas": 86
+  },
+  {
+   "repo": "google/jsinterop-generator",
+   "pushed": "2026-11-25T20:00:30Z",
+   "estrellas": 85
+  },
+  {
+   "repo": "google/flow-lens",
+   "pushed": "2026-11-19T03:42:37Z",
+   "estrellas": 84
+  },
+  {
+   "repo": "google-gemini/gemini-android-computer-use-quickstart",
+   "pushed": "2026-11-23T13:42:23Z",
+   "estrellas": 83
+  },
+  {
+   "repo": "NVIDIA/nccl-extensions",
+   "pushed": "2026-11-25T19:44:34Z",
+   "estrellas": 83
+  },
+  {
+   "repo": "google/go-sev-guest",
+   "pushed": "2026-11-20T00:30:43Z",
+   "estrellas": 79
+  },
+  {
+   "repo": "NVIDIA/nodewright",
+   "pushed": "2026-11-25T21:46:31Z",
+   "estrellas": 79
+  },
+  {
+   "repo": "NVIDIA/NeMo-Fabric",
+   "pushed": "2026-11-25T08:21:17Z",
+   "estrellas": 79
+  },
+  {
+   "repo": "google/anonymous-tokens",
+   "pushed": "2026-11-23T22:17:58Z",
+   "estrellas": 78
+  },
+  {
+   "repo": "NVIDIA/numba-cuda-mlir",
+   "pushed": "2026-11-25T04:01:49Z",
+   "estrellas": 78
+  },
+  {
+   "repo": "google/cloud-android-orchestration",
+   "pushed": "2026-11-25T20:47:27Z",
+   "estrellas": 76
+  },
+  {
+   "repo": "google/jsinterop-base",
+   "pushed": "2026-11-25T20:00:29Z",
+   "estrellas": 76
+  },
+  {
+   "repo": "google/native-pkcs11",
+   "pushed": "2026-11-21T15:02:49Z",
+   "estrellas": 75
+  },
+  {
+   "repo": "google-deepmind/cryptids",
+   "pushed": "2026-11-25T20:04:19Z",
+   "estrellas": 75
+  },
+  {
+   "repo": "google/watchface",
+   "pushed": "2026-11-25T18:57:30Z",
+   "estrellas": 73
+  },
+  {
+   "repo": "NVIDIA/cudf-spark-tools",
+   "pushed": "2026-11-24T20:45:17Z",
+   "estrellas": 73
+  },
+  {
+   "repo": "google/glome",
+   "pushed": "2026-11-24T10:59:06Z",
+   "estrellas": 71
+  },
+  {
+   "repo": "google-deepmind/bagz",
+   "pushed": "2026-11-20T05:52:06Z",
+   "estrellas": 71
+  },
+  {
+   "repo": "NVIDIA/ACCV-Lab",
+   "pushed": "2026-11-20T03:51:16Z",
+   "estrellas": 69
+  },
+  {
+   "repo": "google/stellar-engine",
+   "pushed": "2026-11-25T16:04:54Z",
+   "estrellas": 67
+  },
+  {
+   "repo": "google/gfxstream",
+   "pushed": "2026-11-23T16:41:43Z",
+   "estrellas": 67
+  },
+  {
+   "repo": "NVIDIA/cuCascade",
+   "pushed": "2026-11-25T19:40:46Z",
+   "estrellas": 67
+  },
+  {
+   "repo": "NVIDIA/cudf-spark-jni",
+   "pushed": "2026-11-25T20:59:15Z",
+   "estrellas": 66
+  },
+  {
+   "repo": "google/libnss-cache",
+   "pushed": "2026-11-23T18:51:19Z",
+   "estrellas": 65
+  },
+  {
+   "repo": "google/arb-editor",
+   "pushed": "2026-11-25T14:27:00Z",
+   "estrellas": 64
+  },
+  {
+   "repo": "google/metrax",
+   "pushed": "2026-11-20T23:22:37Z",
+   "estrellas": 64
+  },
+  {
+   "repo": "google/dart_cli_pkg",
+   "pushed": "2026-11-24T03:54:01Z",
+   "estrellas": 63
+  },
+  {
+   "repo": "google/mpact-sim",
+   "pushed": "2026-11-19T22:16:20Z",
+   "estrellas": 63
+  },
+  {
+   "repo": "NVIDIA/numbast",
+   "pushed": "2026-11-20T17:40:51Z",
+   "estrellas": 63
+  },
+  {
+   "repo": "google/dwh-migration-tools",
+   "pushed": "2026-11-25T11:28:49Z",
+   "estrellas": 61
+  },
+  {
+   "repo": "NVIDIA/go-nvlib",
+   "pushed": "2026-11-19T00:56:00Z",
+   "estrellas": 61
+  },
+  {
+   "repo": "google/testrun",
+   "pushed": "2026-11-25T19:34:49Z",
+   "estrellas": 60
+  },
+  {
+   "repo": "google/pica",
+   "pushed": "2026-11-25T18:11:08Z",
+   "estrellas": 58
+  },
+  {
+   "repo": "google/cybernetic-agent-governance-engine",
+   "pushed": "2026-11-25T21:37:46Z",
+   "estrellas": 56
+  },
+  {
+   "repo": "google/command-fds",
+   "pushed": "2026-11-23T12:35:31Z",
+   "estrellas": 56
+  },
+  {
+   "repo": "NVIDIA/NuRec",
+   "pushed": "2026-11-25T17:21:46Z",
+   "estrellas": 56
+  },
+  {
+   "repo": "NVIDIA/k8s-driver-manager",
+   "pushed": "2026-11-24T05:52:54Z",
+   "estrellas": 55
+  },
+  {
+   "repo": "NVIDIA/daqiri",
+   "pushed": "2026-11-25T17:37:04Z",
+   "estrellas": 54
+  },
+  {
+   "repo": "google/piex",
+   "pushed": "2026-11-23T13:43:26Z",
+   "estrellas": 53
+  },
+  {
+   "repo": "NVIDIA/attestation-sdk",
+   "pushed": "2026-11-24T06:27:21Z",
+   "estrellas": 53
+  },
+  {
+   "repo": "google/litmus",
+   "pushed": "2026-11-20T09:21:43Z",
+   "estrellas": 52
+  },
+  {
+   "repo": "google-gemini/gemini-live-translate-livekit",
+   "pushed": "2026-11-25T10:56:03Z",
+   "estrellas": 50
+  },
+  {
+   "repo": "google-deepmind/disentangled_rnns",
+   "pushed": "2026-11-18T22:18:58Z",
+   "estrellas": 49
+  },
+  {
+   "repo": "NVIDIA/switchyard-local-first-routing",
+   "pushed": "2026-11-24T19:12:06Z",
+   "estrellas": 49
+  },
+  {
+   "repo": "NVIDIA/OpenShell-Research",
+   "pushed": "2026-11-23T17:58:52Z",
+   "estrellas": 48
+  },
+  {
+   "repo": "NVIDIA/nvrc",
+   "pushed": "2026-11-23T07:09:58Z",
+   "estrellas": 48
+  },
+  {
+   "repo": "google/meridian-geox",
+   "pushed": "2026-11-25T15:02:56Z",
+   "estrellas": 47
+  },
+  {
+   "repo": "NVIDIA/cudf-spark-benchmarks",
+   "pushed": "2026-11-24T17:31:46Z",
+   "estrellas": 47
+  },
+  {
+   "repo": "NVIDIA/AI-Factory-Operations-Agent",
+   "pushed": "2026-11-24T21:45:05Z",
+   "estrellas": 46
+  },
+  {
+   "repo": "google/permhash",
+   "pushed": "2026-11-20T18:47:45Z",
+   "estrellas": 45
+  },
+  {
+   "repo": "google-deepmind/fusion_surrogates",
+   "pushed": "2026-11-25T19:46:00Z",
+   "estrellas": 45
+  },
+  {
+   "repo": "google/open-dice",
+   "pushed": "2026-11-23T00:49:21Z",
+   "estrellas": 44
+  },
+  {
+   "repo": "NVIDIA/cloud-native-docs",
+   "pushed": "2026-11-25T14:51:49Z",
+   "estrellas": 44
+  },
+  {
+   "repo": "google/private-compute-libraries",
+   "pushed": "2026-11-24T08:25:01Z",
+   "estrellas": 43
+  },
+  {
+   "repo": "google/netkat",
+   "pushed": "2026-11-19T21:00:42Z",
+   "estrellas": 42
+  },
+  {
+   "repo": "NVIDIA/barney",
+   "pushed": "2026-11-22T18:28:21Z",
+   "estrellas": 42
+  },
+  {
+   "repo": "google/civics_cdf_validator",
+   "pushed": "2026-11-25T15:42:32Z",
+   "estrellas": 41
+  },
+  {
+   "repo": "google/obr",
+   "pushed": "2026-11-25T12:38:11Z",
+   "estrellas": 39
+  },
+  {
+   "repo": "google/sedpack",
+   "pushed": "2026-11-25T07:42:15Z",
+   "estrellas": 39
+  },
+  {
+   "repo": "google/goonami-scanner",
+   "pushed": "2026-11-23T22:17:01Z",
+   "estrellas": 38
+  },
+  {
+   "repo": "google/oss-policies-info",
+   "pushed": "2026-11-23T21:33:17Z",
+   "estrellas": 37
+  },
+  {
+   "repo": "NVIDIA/product-security",
+   "pushed": "2026-11-24T13:46:18Z",
+   "estrellas": 37
+  },
+  {
+   "repo": "google/koladata",
+   "pushed": "2026-11-25T19:45:10Z",
+   "estrellas": 36
+  },
+  {
+   "repo": "google/migration-planner",
+   "pushed": "2026-11-20T09:42:19Z",
+   "estrellas": 33
+  },
+  {
+   "repo": "NVIDIA/cuPhoton",
+   "pushed": "2026-11-24T18:23:09Z",
+   "estrellas": 33
+  },
+  {
+   "repo": "google/distributed_graph_flow",
+   "pushed": "2026-11-25T20:38:14Z",
+   "estrellas": 32
+  },
+  {
+   "repo": "google/sommelier-rs",
+   "pushed": "2026-11-24T20:47:54Z",
+   "estrellas": 32
+  },
+  {
+   "repo": "google/aarch64-rt",
+   "pushed": "2026-11-20T11:35:40Z",
+   "estrellas": 32
+  },
+  {
+   "repo": "google/safe-bindings",
+   "pushed": "2026-11-25T17:10:01Z",
+   "estrellas": 31
+  },
+  {
+   "repo": "google/net_http",
+   "pushed": "2026-11-25T05:54:21Z",
+   "estrellas": 31
+  },
+  {
+   "repo": "NVIDIA/holodeck",
+   "pushed": "2026-11-24T00:33:12Z",
+   "estrellas": 31
+  },
+  {
+   "repo": "google/skill-reach",
+   "pushed": "2026-11-20T21:57:33Z",
+   "estrellas": 30
+  },
+  {
+   "repo": "google/esmeralda",
+   "pushed": "2026-11-20T11:10:25Z",
+   "estrellas": 30
+  },
+  {
+   "repo": "NVIDIA/k8s-operator-libs",
+   "pushed": "2026-11-25T21:37:31Z",
+   "estrellas": 30
+  },
+  {
+   "repo": "google/s2a-go",
+   "pushed": "2026-11-24T21:50:21Z",
+   "estrellas": 29
+  },
+  {
+   "repo": "NVIDIA/nvflow",
+   "pushed": "2026-11-25T21:16:37Z",
+   "estrellas": 29
+  },
+  {
+   "repo": "NVIDIA/edk2",
+   "pushed": "2026-11-25T10:07:38Z",
+   "estrellas": 29
+  },
+  {
+   "repo": "google/saferpickle",
+   "pushed": "2026-11-25T17:11:32Z",
+   "estrellas": 28
+  },
+  {
+   "repo": "google/dart_cli_script",
+   "pushed": "2026-11-24T12:24:03Z",
+   "estrellas": 28
+  },
+  {
+   "repo": "google/go-eventlog",
+   "pushed": "2026-11-23T21:18:15Z",
+   "estrellas": 28
+  },
+  {
+   "repo": "google/duet",
+   "pushed": "2026-11-20T05:05:35Z",
+   "estrellas": 28
+  },
+  {
+   "repo": "NVIDIA/aerial-sample-apps",
+   "pushed": "2026-11-25T07:07:48Z",
+   "estrellas": 28
+  },
+  {
+   "repo": "google/arolla",
+   "pushed": "2026-11-25T19:29:55Z",
+   "estrellas": 27
+  },
+  {
+   "repo": "google/kotlin_convert",
+   "pushed": "2026-11-21T08:16:34Z",
+   "estrellas": 27
+  },
+  {
+   "repo": "google-deepmind/reaf-sim",
+   "pushed": "2026-11-25T15:31:03Z",
+   "estrellas": 27
+  },
+  {
+   "repo": "NVIDIA/nvnmos",
+   "pushed": "2026-11-25T20:14:35Z",
+   "estrellas": 27
+  },
+  {
+   "repo": "NVIDIA/Nomos",
+   "pushed": "2026-11-23T21:06:20Z",
+   "estrellas": 27
+  },
+  {
+   "repo": "google-deepmind/iris",
+   "pushed": "2026-11-19T06:34:31Z",
+   "estrellas": 26
+  },
+  {
+   "repo": "google/xplat",
+   "pushed": "2026-11-25T19:35:44Z",
+   "estrellas": 25
+  },
+  {
+   "repo": "google/jsinterop-annotations",
+   "pushed": "2026-11-23T15:25:27Z",
+   "estrellas": 25
+  },
+  {
+   "repo": "NVIDIA/swe-serve",
+   "pushed": "2026-11-24T22:39:17Z",
+   "estrellas": 25
+  },
+  {
+   "repo": "NVIDIA/nvidia-gcp-samples",
+   "pushed": "2026-11-20T21:40:12Z",
+   "estrellas": 25
+  },
+  {
+   "repo": "google/ecclesia-machine-management",
+   "pushed": "2026-11-24T03:33:24Z",
+   "estrellas": 24
+  },
+  {
+   "repo": "google/secure-aggregation",
+   "pushed": "2026-11-23T16:03:14Z",
+   "estrellas": 24
+  },
+  {
+   "repo": "google/percore",
+   "pushed": "2026-11-19T11:28:58Z",
+   "estrellas": 23
+  },
+  {
+   "repo": "google/dtoolkit",
+   "pushed": "2026-11-25T18:42:14Z",
+   "estrellas": 22
+  },
+  {
+   "repo": "google/libhoth",
+   "pushed": "2026-11-24T01:04:32Z",
+   "estrellas": 22
+  },
+  {
+   "repo": "NVIDIA/k8s-launch-kit",
+   "pushed": "2026-11-24T09:01:41Z",
+   "estrellas": 22
+  },
+  {
+   "repo": "google/jaxloop",
+   "pushed": "2026-11-23T16:20:24Z",
+   "estrellas": 21
+  },
+  {
+   "repo": "google/budoux-extension",
+   "pushed": "2026-11-20T21:34:33Z",
+   "estrellas": 21
+  },
+  {
+   "repo": "google-deepmind/reaf",
+   "pushed": "2026-11-20T15:10:41Z",
+   "estrellas": 21
+  },
+  {
+   "repo": "NVIDIA/warp-optix",
+   "pushed": "2026-11-25T17:45:10Z",
+   "estrellas": 21
+  },
+  {
+   "repo": "google/rbrotli-enc",
+   "pushed": "2026-11-20T11:18:09Z",
+   "estrellas": 20
+  },
+  {
+   "repo": "google/tsunami-security-scanner-callback-server",
+   "pushed": "2026-11-20T09:49:21Z",
+   "estrellas": 20
+  },
+  {
+   "repo": "NVIDIA/cdf-anomalygen",
+   "pushed": "2026-11-23T15:52:36Z",
+   "estrellas": 20
+  },
+  {
+   "repo": "google/kir-holiday-lights",
+   "pushed": "2026-11-24T07:20:40Z",
+   "estrellas": 19
+  },
+  {
+   "repo": "NVIDIA/cudaq-pulse",
+   "pushed": "2026-11-25T21:53:25Z",
+   "estrellas": 18
+  },
+  {
+   "repo": "NVIDIA/QEMU",
+   "pushed": "2026-11-19T21:17:54Z",
+   "estrellas": 18
+  },
+  {
+   "repo": "google/iso-c-chaining",
+   "pushed": "2026-11-19T21:14:55Z",
+   "estrellas": 17
+  },
+  {
+   "repo": "NVIDIA/GFMBench-api",
+   "pushed": "2026-11-22T12:50:16Z",
+   "estrellas": 17
+  },
+  {
+   "repo": "NVIDIA/cuspa",
+   "pushed": "2026-11-20T12:25:32Z",
+   "estrellas": 17
+  },
+  {
+   "repo": "google/go-units",
+   "pushed": "2026-11-20T04:12:58Z",
+   "estrellas": 16
+  },
+  {
+   "repo": "NVIDIA/cudaq-algorithms",
+   "pushed": "2026-11-20T17:26:38Z",
+   "estrellas": 16
+  },
+  {
+   "repo": "NVIDIA/warp-nn",
+   "pushed": "2026-11-25T12:39:44Z",
+   "estrellas": 15
+  },
+  {
+   "repo": "NVIDIA/OpenSMA",
+   "pushed": "2026-11-20T23:14:33Z",
+   "estrellas": 15
+  },
+  {
+   "repo": "google/chromium-policy-vulnfeed",
+   "pushed": "2026-11-25T00:32:16Z",
+   "estrellas": 14
+  },
+  {
+   "repo": "google/crumbles",
+   "pushed": "2026-11-24T16:01:54Z",
+   "estrellas": 14
+  },
+  {
+   "repo": "google/torq",
+   "pushed": "2026-11-20T22:12:52Z",
+   "estrellas": 14
+  },
+  {
+   "repo": "NVIDIA/structured-data-models-client",
+   "pushed": "2026-11-25T04:28:06Z",
+   "estrellas": 14
+  },
+  {
+   "repo": "NVIDIA/NeMo-Relay-Plugins",
+   "pushed": "2026-11-23T22:17:08Z",
+   "estrellas": 14
+  },
+  {
+   "repo": "google/pcie_lmt",
+   "pushed": "2026-11-25T17:05:01Z",
+   "estrellas": 13
+  },
+  {
+   "repo": "google-deepmind/agentic_ecology",
+   "pushed": "2026-11-24T08:02:02Z",
+   "estrellas": 13
+  },
+  {
+   "repo": "NVIDIA/rivermax-dev-kit",
+   "pushed": "2026-11-24T09:37:41Z",
+   "estrellas": 13
+  },
+  {
+   "repo": "NVIDIA/nsmd",
+   "pushed": "2026-11-23T12:32:54Z",
+   "estrellas": 13
+  },
+  {
+   "repo": "NVIDIA/anchor-bench",
+   "pushed": "2026-11-20T01:46:12Z",
+   "estrellas": 13
+  },
+  {
+   "repo": "NVIDIA/OpenEnterpriseRiskManagementGuidance",
+   "pushed": "2026-11-25T21:46:32Z",
+   "estrellas": 12
+  },
+  {
+   "repo": "NVIDIA/ccluster",
+   "pushed": "2026-11-25T21:43:11Z",
+   "estrellas": 12
+  },
+  {
+   "repo": "NVIDIA/edk2-platforms",
+   "pushed": "2026-11-25T10:07:40Z",
+   "estrellas": 12
+  },
+  {
+   "repo": "NVIDIA/cdf-auto-labeling",
+   "pushed": "2026-11-25T20:56:56Z",
+   "estrellas": 11
+  },
+  {
+   "repo": "NVIDIA/agent-policy-fabric",
+   "pushed": "2026-11-25T20:11:22Z",
+   "estrellas": 11
+  },
+  {
+   "repo": "NVIDIA/DALI_deps",
+   "pushed": "2026-11-25T14:33:09Z",
+   "estrellas": 11
+  },
+  {
+   "repo": "google/xmc",
+   "pushed": "2026-11-25T21:17:48Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "google/safer_cffi",
+   "pushed": "2026-11-24T21:08:24Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "google/agents-cli-extensions",
+   "pushed": "2026-11-24T19:46:27Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "google/cc-device-plugin",
+   "pushed": "2026-11-23T20:54:41Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "google-deepmind/origami-design",
+   "pushed": "2026-11-23T13:44:36Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "NVIDIA/nodewright-packages",
+   "pushed": "2026-11-25T21:46:18Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "NVIDIA/security-workflows",
+   "pushed": "2026-11-25T10:12:16Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "NVIDIA/AutoFA",
+   "pushed": "2026-11-24T16:35:38Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "NVIDIA/k8s-cc-manager",
+   "pushed": "2026-11-20T19:13:36Z",
+   "estrellas": 10
+  },
+  {
+   "repo": "NVIDIA/fleet-intelligence-client",
+   "pushed": "2026-11-25T17:55:35Z",
+   "estrellas": 9
+  },
+  {
+   "repo": "NVIDIA/nvidia-kernel-patches-verification",
+   "pushed": "2026-11-23T22:51:01Z",
+   "estrellas": 9
+  },
+  {
+   "repo": "NVIDIA/k8s-samples",
+   "pushed": "2026-11-20T20:49:55Z",
+   "estrellas": 9
+  },
+  {
+   "repo": "google/betosim",
+   "pushed": "2026-11-25T21:06:20Z",
+   "estrellas": 8
+  },
+  {
+   "repo": "google/symphony-gcp",
+   "pushed": "2026-11-25T17:31:41Z",
+   "estrellas": 8
+  },
+  {
+   "repo": "google/p4-infra",
+   "pushed": "2026-11-24T17:34:26Z",
+   "estrellas": 8
+  },
+  {
+   "repo": "google/mobly-bluetooth-ref-validation",
+   "pushed": "2026-11-24T11:29:24Z",
+   "estrellas": 8
+  },
+  {
+   "repo": "NVIDIA/physicsnemo-serve",
+   "pushed": "2026-11-20T20:51:39Z",
+   "estrellas": 8
+  },
+  {
+   "repo": "NVIDIA/edk2-non-osi",
+   "pushed": "2026-11-20T15:30:58Z",
+   "estrellas": 8
+  },
+  {
+   "repo": "google/peregrine",
+   "pushed": "2026-11-25T21:47:29Z",
+   "estrellas": 7
+  },
+  {
+   "repo": "google/ninja-to-soong",
+   "pushed": "2026-11-21T18:07:56Z",
+   "estrellas": 7
+  },
+  {
+   "repo": "google-gemini/hermes-gemini-api-plugin",
+   "pushed": "2026-11-25T08:52:09Z",
+   "estrellas": 7
+  },
+  {
+   "repo": "NVIDIA/model-distillation-finetuning-recipes",
+   "pushed": "2026-11-24T16:16:24Z",
+   "estrellas": 7
+  },
+  {
+   "repo": "NVIDIA/nautobot-app-nvdatamodels",
+   "pushed": "2026-11-21T16:15:19Z",
+   "estrellas": 7
+  },
+  {
+   "repo": "NVIDIA/torch-dgx",
+   "pushed": "2026-11-20T22:40:55Z",
+   "estrellas": 7
+  },
+  {
+   "repo": "NVIDIA/edk2-edkrepo-manifest",
+   "pushed": "2026-11-20T15:30:01Z",
+   "estrellas": 7
+  },
+  {
+   "repo": "google/platform-attestation",
+   "pushed": "2026-11-21T00:42:43Z",
+   "estrellas": 6
+  },
+  {
+   "repo": "google-deepmind/padic-ml",
+   "pushed": "2026-11-21T00:22:10Z",
+   "estrellas": 6
+  },
+  {
+   "repo": "NVIDIA/edk2-infineon",
+   "pushed": "2026-11-20T15:31:14Z",
+   "estrellas": 6
+  },
+  {
+   "repo": "NVIDIA/nvidia-code-mgmt",
+   "pushed": "2026-11-20T15:13:13Z",
+   "estrellas": 6
+  },
+  {
+   "repo": "google/filament-assets",
+   "pushed": "2026-11-25T09:15:37Z",
+   "estrellas": 5
+  },
+  {
+   "repo": "google/sbom-conformance",
+   "pushed": "2026-11-25T07:04:03Z",
+   "estrellas": 5
+  },
+  {
+   "repo": "google/data-import-looker-dashboard",
+   "pushed": "2026-11-25T06:44:08Z",
+   "estrellas": 5
+  },
+  {
+   "repo": "NVIDIA/pytorch-windows-ci",
+   "pushed": "2026-11-25T13:15:10Z",
+   "estrellas": 5
+  },
+  {
+   "repo": "NVIDIA/spark-rapids-common",
+   "pushed": "2026-11-25T01:42:21Z",
+   "estrellas": 5
+  },
+  {
+   "repo": "NVIDIA/rivermax-examples",
+   "pushed": "2026-11-24T09:39:11Z",
+   "estrellas": 5
+  },
+  {
+   "repo": "NVIDIA/edk2-nvidia-non-osi",
+   "pushed": "2026-11-20T15:30:37Z",
+   "estrellas": 5
+  },
+  {
+   "repo": "google/casimir",
+   "pushed": "2026-11-25T18:10:25Z",
+   "estrellas": 4
+  },
+  {
+   "repo": "google/synopsys-dw-uart",
+   "pushed": "2026-11-25T10:32:09Z",
+   "estrellas": 4
+  },
+  {
+   "repo": "google/scientific_dart",
+   "pushed": "2026-11-24T13:21:11Z",
+   "estrellas": 4
+  },
+  {
+   "repo": "google/tree-sitter-fidl",
+   "pushed": "2026-11-24T04:34:58Z",
+   "estrellas": 4
+  },
+  {
+   "repo": "NVIDIA/Vela",
+   "pushed": "2026-11-25T16:59:23Z",
+   "estrellas": 4
+  },
+  {
+   "repo": "NVIDIA/earth2bufr",
+   "pushed": "2026-11-23T22:27:02Z",
+   "estrellas": 4
+  },
+  {
+   "repo": "google/go-nvattest-tools",
+   "pushed": "2026-11-25T20:53:52Z",
+   "estrellas": 3
+  },
+  {
+   "repo": "google/aaos-sdv-telemetry-mcg",
+   "pushed": "2026-11-19T09:19:03Z",
+   "estrellas": 3
+  },
+  {
+   "repo": "NVIDIA/docs-builder",
+   "pushed": "2026-11-23T04:35:14Z",
+   "estrellas": 3
+  },
+  {
+   "repo": "NVIDIA/edk2-redfish-client",
+   "pushed": "2026-11-21T10:09:52Z",
+   "estrellas": 3
+  },
+  {
+   "repo": "NVIDIA/x86-power-control",
+   "pushed": "2026-11-19T13:13:04Z",
+   "estrellas": 3
+  },
+  {
+   "repo": "google/simd_tokens",
+   "pushed": "2026-11-25T18:14:51Z",
+   "estrellas": 2
+  },
+  {
+   "repo": "google/xontrib-tmux",
+   "pushed": "2026-11-24T14:52:10Z",
+   "estrellas": 2
+  },
+  {
+   "repo": "google/opencl-kernel-profiler",
+   "pushed": "2026-11-20T02:13:55Z",
+   "estrellas": 2
+  },
+  {
+   "repo": "NVIDIA/lstp_module",
+   "pushed": "2026-11-19T15:31:59Z",
+   "estrellas": 2
+  },
+  {
+   "repo": "NVIDIA/graphics-overlay.nix",
+   "pushed": "2026-11-19T06:28:21Z",
+   "estrellas": 2
+  },
+  {
+   "repo": "google/google-tlog-witness",
+   "pushed": "2026-11-25T13:37:29Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "google/bazel517",
+   "pushed": "2026-11-24T19:48:20Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "google/oneiromancy",
+   "pushed": "2026-11-21T19:34:08Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "google/aaos-sdv-demos",
+   "pushed": "2026-11-21T00:25:44Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "google/libmotionphoto",
+   "pushed": "2026-11-20T19:47:38Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "google/helpseeking",
+   "pushed": "2026-11-18T22:04:36Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "google-deepmind/disco",
+   "pushed": "2026-11-25T15:18:03Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "google-deepmind/extract_frag_trees",
+   "pushed": "2026-11-21T20:22:00Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "NVIDIA/cuopt-jupyter",
+   "pushed": "2026-11-25T17:39:17Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "NVIDIA/confidential-computing-docs",
+   "pushed": "2026-11-24T18:44:53Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "NVIDIA/nvidia-aws-samples",
+   "pushed": "2026-11-23T21:53:56Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "NVIDIA/openocd",
+   "pushed": "2026-11-23T20:30:22Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "NVIDIA/cswp",
+   "pushed": "2026-11-23T20:30:17Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "NVIDIA/gdbscripts",
+   "pushed": "2026-11-23T17:08:06Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "NVIDIA/networking-yang",
+   "pushed": "2026-11-23T16:18:12Z",
+   "estrellas": 1
+  },
+  {
+   "repo": "google/mobly-bluetooth",
+   "pushed": "2026-11-19T13:23:24Z",
+   "estrellas": 0
+  },
+  {
+   "repo": "google-deepmind/psyre",
+   "pushed": "2026-11-25T13:49:05Z",
+   "estrellas": 0
+  },
+  {
+   "repo": "google-deepmind/habitats",
+   "pushed": "2026-11-24T22:43:13Z",
+   "estrellas": 0
+  },
+  {
+   "repo": "NVIDIA/doca-platform-scale-sim",
+   "pushed": "2026-11-23T16:58:43Z",
+   "estrellas": 0
+  },
+  {
+   "repo": "NVIDIA/newton-samples",
+   "pushed": "2026-11-23T16:48:19Z",
+   "estrellas": 0
+  },
+  {
+   "repo": "NVIDIA/nvidia-linux-utils",
+   "pushed": "2026-11-19T18:39:52Z",
+   "estrellas": 0
+  },
+  {
+   "repo": "NVIDIA/platform-init",
+   "pushed": "2026-11-19T10:05:54Z",
+   "estrellas": 0
+  }
+ ],
+ "webs": {}
+}
