@@ -132,10 +132,14 @@ def analizar(prompt):
         return openrouter(prompt)
 
 
+PROYECTOS = os.environ.get("MIS_PROYECTOS", "").strip() or (
+    "proyectos personales con IA gratis (conectores a APIs, modelos propios), apps web y automatizaciones")
+
 INSTRUCCIONES = """Eres un revisor técnico. Escribe en español sencillo, para alguien que no sabe inglés.
 Separa hechos (lo que muestra el material) de suposiciones; marca las suposiciones como "sin confirmar". No inventes.
 Usa EXACTAMENTE este formato:
 EN UNA LÍNEA: (resumen de una sola frase)
+UTILIDAD: (alta, media o baja, según lo útil que sea para los proyectos de abajo)
 ## Qué es
 ## {nuevo}
 ## Cosas útiles
@@ -143,8 +147,7 @@ EN UNA LÍNEA: (resumen de una sola frase)
 ## Avisos
 (requisitos, licencia, costos, límites, riesgos)
 ## ¿Sirve para sus proyectos?
-(sus proyectos: un conector a la API de Gemini en Cloudflare, una IA propia llamada Musa que entrena en Kaggle,
-y apps web publicadas con GitHub y Cloudflare). Di sí o no y por qué.
+(sus proyectos: """ + PROYECTOS.replace("{", "(").replace("}", ")") + """). Di sí o no y por qué.
 """
 
 
@@ -293,9 +296,53 @@ def guardar_informe(nombre, texto, nota):
     os.makedirs(carpeta, exist_ok=True)
     archivo = re.sub(r"[^\w.-]+", "_", nombre)[:120] + ".md"
     open(os.path.join(carpeta, archivo), "w", encoding="utf-8").write(f"# {nombre}\n\n_{nota}_\n\n{texto}\n")
-    linea = next((l for l in texto.splitlines() if l.upper().startswith("EN UNA L")), "").split(":", 1)[-1].strip()
+    def campo(clave):
+        l = next((l for l in texto.splitlines() if l.strip("*# ").upper().startswith(clave)), "")
+        return l.split(":", 1)[-1].strip(" *")
+    linea, util = campo("EN UNA L"), campo("UTILIDAD").lower()
+    util = next((u for u in ("alta", "media", "baja") if u in util), "sin dato")
     with open(os.path.join(carpeta, "RESUMEN.md"), "a", encoding="utf-8") as f:
-        f.write(f"- [{nombre}]({archivo}) — {linea or 'ver informe'}\n")
+        f.write(f"- **{util}** · [{nombre}]({archivo}) — {linea or 'ver informe'}\n")
+    return util, f"[{nombre}](informes/{HOY}/{archivo}) — {linea}"
+
+
+ORDEN = {"alta": 0, "media": 1, "baja": 2}
+
+
+def escribir_indice():
+    """informes/INDICE.md: lo de los últimos 14 días, de más a menos útil."""
+    base = os.path.join(RAIZ, "informes")
+    filas = []
+    for dia in sorted(os.listdir(base), reverse=True)[:14]:
+        resumen = os.path.join(base, dia, "RESUMEN.md")
+        if os.path.exists(resumen):
+            for l in open(resumen, encoding="utf-8"):
+                m = re.match(r"- \*\*(.+?)\*\* · \[(.+?)\]\((.+?)\) — (.*)", l.strip())
+                if m:
+                    filas.append((ORDEN.get(m[1], 3), dia, m[1], m[2], f"{dia}/{m[3]}", m[4]))
+    filas.sort(key=lambda f: f[1], reverse=True)  # más reciente primero…
+    filas.sort(key=lambda f: f[0])  # …dentro de cada nivel de utilidad
+    out = ["# Índice de informes (últimos 14 días)", "", "Ordenado de más a menos útil; dentro de cada grupo, lo más reciente primero.", ""]
+    actual = None
+    for _, dia, util, nombre, ruta, linea in filas:
+        if util != actual:
+            out += ["", f"## Utilidad {util}", ""]
+            actual = util
+        out.append(f"- [{nombre}]({ruta}) ({dia}) — {linea}")
+    open(os.path.join(base, "INDICE.md"), "w", encoding="utf-8").write("\n".join(out) + "\n")
+
+
+def avisar(hallazgos):
+    """Abre un aviso (issue) en GitHub: la app del celular lo notifica."""
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not (hallazgos and repo and GH_TOKEN):
+        return
+    cuerpo = "Informes con utilidad **alta** de esta corrida:\n\n" + "\n".join("- " + h for h in hallazgos)
+    cuerpo = cuerpo.replace("](informes/", f"](https://github.com/{repo}/blob/main/informes/")
+    http(f"https://api.github.com/repos/{repo}/issues",
+         {"title": f"Hallazgos útiles {HOY} ({len(hallazgos)})", "body": cuerpo},
+         cab={"Authorization": "Bearer " + GH_TOKEN, "Accept": "application/vnd.github+json",
+              "User-Agent": "agente-revisor"})
 
 
 def main():
@@ -314,6 +361,7 @@ def main():
         est["ultima"] = inicio_corrida
         guardar_estado(est)
         tarea = CFG["webs"] + [c["repo"] for c in est["cola"][: LIM["repos_por_corrida"]]]
+    hallazgos = []
     log(f"Por revisar: {len(tarea)} | en cola total: {len(est['cola'])}")
 
     for item in tarea:
@@ -328,12 +376,19 @@ def main():
                 texto, nota = revisar_repo(item, est)
                 est["cola"] = [c for c in est["cola"] if c["repo"] != item]
             if texto:
-                guardar_informe(item, texto, nota)
+                util, enlace = guardar_informe(item, texto, nota)
+                if util == "alta":
+                    hallazgos.append(enlace)
         except Exception as e:
             log("  Error, queda para la próxima:", e)
         guardar_estado(est)
         time.sleep(60)  # Gemini gratis se satura por minuto con códigos grandes
     log("Pendientes en cola:", len(est["cola"]))
+    try:
+        escribir_indice()
+        avisar(hallazgos)
+    except Exception as e:
+        log("No pude escribir el índice o el aviso:", e)
 
 
 if __name__ == "__main__":
