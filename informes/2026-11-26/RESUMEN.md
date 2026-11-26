@@ -1,0 +1,14 @@
+- **alta** · [google/guava](google_guava.md) — Google simplificó su librería Guava para Java al usar clases estándar del lenguaje en lugar de copias propias.
+- **baja** · [google/googletest](google_googletest.md) — GoogleTest es un framework gratuito de pruebas unitarias y mock para código C++.
+- **media** · [google/comprehensive-rust](google_comprehensive-rust.md) — Es un curso gratuito de Rust creado por el equipo de Android de Google para enseñar el lenguaje a programadores con experiencia.
+- **media** · [google/skills](google_skills.md) — El repositorio google/skills agregó un complemento para Google Home y actualizó habilidades de API Gateway, solución de problemas de GKE/Kueue y configuración de Cloud Operator para agentes de IA.
+- **media** · [NVIDIA/NemoClaw](NVIDIA_NemoClaw.md) — NVIDIA actualizó la documentación de NemoClaw, su herramienta para crear agentes de IA seguros dentro de OpenShell, y agregó una nueva forma de desplegarlos usando archivos YAML.
+- **media** · [google/adk-python](google_adk-python.md) — El kit de herramientas ADK para Python recibió cambios internos en la escritura de tipos de datos y una función experimental para registrar el razonamiento de los modelos de IA.
+- **media** · [google/fonts](google_fonts.md) — El repositorio de Google Fonts actualizó archivos de fuentes, metadatos y listas de tipografías disponibles para su catálogo público.
+- **media** · [google-deepmind/mujoco](google-deepmind_mujoco.md) — MuJoCo es un simulador de física gratuito de Google DeepMind para robótica y movimiento, con versión para Python y navegador.
+- **baja** · [NVIDIA/Megatron-LM](NVIDIA_Megatron-LM.md) — Megatron-LM es una biblioteca de NVIDIA para entrenar modelos de lenguaje grandes en muchas GPUs a la vez.
+- **alta** · [google/libphonenumber](google_libphonenumber.md) — Es una librería de Google para leer, formatear y validar números de teléfono de cualquier país en Java, C++ y JavaScript.
+- **alta** · [google-gemini/cookbook](google-gemini_cookbook.md) — Es una colección de guías y ejemplos de Google para aprender a usar la Gemini API con código listo para probar.
+- **baja** · [NVIDIA/open-gpu-kernel-modules](NVIDIA_open-gpu-kernel-modules.md) — Es el código fuente abierto de los controladores de kernel de NVIDIA para tarjetas gráficas en Linux.
+- **alta** · [google/brotli](google_brotli.md) — Brotli es una librería gratuita de compresión sin pérdida creada por Google que hace archivos más pequeños usando LZ77, codificación de Huffman y modelado de contexto.
+- **media** · [NVIDIA/TensorRT-LLM](NVIDIA_TensorRT-LLM.md) — TensorRT-LLM es una herramienta gratuita de NVIDIA para hacer correr modelos de lenguaje y generación de imágenes más rápido en tarjetas gráficas NVIDIA.
