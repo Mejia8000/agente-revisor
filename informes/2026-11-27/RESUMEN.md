@@ -1,0 +1,12 @@
+- **media** · [google/langextract](google_langextract.md) — Langextract es una librería de Python que organiza información de textos libres usando inteligencia artificial, y ahora detecta mejor cuando OpenAI no devuelve respuesta en envíos por lotes.
+- **baja** · [NVIDIA/Megatron-LM](NVIDIA_Megatron-LM.md) — NVIDIA agregó soporte opcional para Liger RMSNorm, actualizó pruebas de inferencia en H100 y cambió cómo su sistema de integración continua usa los tokens de GitHub.
+- **baja** · [google-deepmind/mujoco](google-deepmind_mujoco.md) — El simulador de física MuJoco de Google DeepMind recibió mejoras de velocidad en contactos, matrices y su solver de restricciones.
+- **media** · [NVIDIA/TensorRT-LLM](NVIDIA_TensorRT-LLM.md) — TensorRT-LLM de NVIDIA optimiza la ejecución de modelos de lenguaje en GPUs NVIDIA, con soporte nuevo para chips Rubin y correcciones en sus pruebas internas.
+- **media** · [NVIDIA/auto-ontology](NVIDIA_auto-ontology.md) — Auto Ontology es una librería abierta de NVIDIA que crea automáticamente mapas semánticos sobre bases de datos para que agentes de IA respondan preguntas con SQL de forma más precisa y explicable.
+- **media** · [google/ax](google_ax.md) — AX es un programa gratuito de Google para organizar y ejecutar muchas tareas de agentes de inteligencia artificial en clústeres, pero aún está en desarrollo temprano y puede cambiar mucho.
+- **media** · [google/or-tools](google_or-tools.md) — OR-Tools es un conjunto gratuito de herramientas de Google para resolver problemas de planificación y optimización, como rutas de reparto y asignaciones.
+- **media** · [google/yapf](google_yapf.md) — Es una herramienta gratuita para ordenar y formatear automáticamente el código escrito en lenguaje Python según guías de estilo estándar.
+- **media** · [NVIDIA/TensorRT](NVIDIA_TensorRT.md) — Kit de herramientas y código abierto de NVIDIA para acelerar y ejecutar modelos de inteligencia artificial al máximo rendimiento en tarjetas gráficas NVIDIA.
+- **media** · [google/oss-fuzz](google_oss-fuzz.md) — OSS-Fuzz es una herramienta de Google que busca errores y fallos de seguridad en software de código abierto usando pruebas automáticas llamadas fuzzing.
+- **baja** · [google/guice](google_guice.md) — Guice es un framework gratuito de Google para administrar dependencias en aplicaciones Java 11 o superior.
+- **media** · [NVIDIA/cosmos](NVIDIA_cosmos.md) — NVIDIA Cosmos es una plataforma abierta de modelos de IA para entender y simular el mundo físico, enfocada en robots y vehículos autónomos.
