@@ -1,9 +1,9 @@
 {
- "ultima": "2026-11-27T03:38:38.057011Z",
+ "ultima": "2026-11-27T19:01:23.503091Z",
  "repos": {
   "google-gemini/gemini-cli": {
    "sha": "60f8082b14ffa7f10b608270232f3f57b5abbec8",
-   "pushed": "2026-11-27T01:14:43Z",
+   "pushed": "2026-11-27T10:00:19Z",
    "revisado": "2026-11-25"
   },
   "google/guava": {
@@ -17,8 +17,8 @@
    "revisado": "2026-11-25"
   },
   "google/langextract": {
-   "sha": "23c3eba059b1e85cea60dc6154745eade64112f8",
-   "pushed": "2026-11-26T23:10:11Z",
+   "sha": "9ed9613d9d55b8d1b15d25a1a03a85184547d895",
+   "pushed": "2026-11-27T06:19:01Z",
    "revisado": "2026-11-27"
   },
   "NVIDIA/SkillSpector": {
@@ -32,9 +32,9 @@
    "revisado": "2026-11-25"
   },
   "google/skills": {
-   "sha": "6dc0d53303b9f96f166ac72d7f8f1920cb260f24",
-   "pushed": "2026-11-26T17:51:57Z",
-   "revisado": "2026-11-26"
+   "sha": "4d3b4526d54107f92c01ed4057220f249bb17e75",
+   "pushed": "2026-11-27T14:41:43Z",
+   "revisado": "2026-11-27"
   },
   "google/gson": {
    "sha": "d9b5079eaa4567219771bba6d04289cf45c7589b",
@@ -43,7 +43,7 @@
   },
   "NVIDIA/NemoClaw": {
    "sha": "9e197055938fde927ed5d57ba5e00f200d74b626",
-   "pushed": "2026-11-26T20:11:12Z",
+   "pushed": "2026-11-27T11:51:27Z",
    "revisado": "2026-11-26"
   },
   "google/elephant-goldfish-model": {
@@ -87,24 +87,24 @@
    "revisado": "2026-11-26"
   },
   "google-deepmind/mujoco": {
-   "sha": "f0228be821cbb360dc39fd2e809719332ab72887",
-   "pushed": "2026-11-27T03:04:36Z",
+   "sha": "630212fbb6da5e6865892213633f53ded6c44b5b",
+   "pushed": "2026-11-27T17:36:28Z",
    "revisado": "2026-11-27"
   },
   "NVIDIA/Megatron-LM": {
-   "sha": "f86099b85a41b45076c14f48258c466493aec9dc",
-   "pushed": "2026-11-27T03:41:21Z",
+   "sha": "9767f25ac163c3146c5e2a8acc7d3880d5c293b9",
+   "pushed": "2026-11-27T17:57:51Z",
    "revisado": "2026-11-27"
   },
   "google/libphonenumber": {
-   "sha": "c6780d5145b443d0d466eeb8a4015b1747f0747d",
-   "pushed": "2026-11-24T09:57:22Z",
-   "revisado": "2026-11-26"
+   "sha": "befcd5e5539f992e3919d3eb1061ee3b63896b09",
+   "pushed": "2026-11-27T11:33:43Z",
+   "revisado": "2026-11-27"
   },
   "google-gemini/cookbook": {
-   "sha": "00b822507022d3b6944e7956119c3e7cf9b83374",
-   "pushed": "2026-11-26T13:02:09Z",
-   "revisado": "2026-11-26"
+   "sha": "4ab7a6fd668f6fd26c1527bcd69a3bd1ad92e40b",
+   "pushed": "2026-11-27T12:11:19Z",
+   "revisado": "2026-11-27"
   },
   "NVIDIA/open-gpu-kernel-modules": {
    "sha": "a4b95f6a2db0bba10ccaccef79190a3c18dcf14a",
@@ -117,8 +117,8 @@
    "revisado": "2026-11-26"
   },
   "NVIDIA/TensorRT-LLM": {
-   "sha": "7efac55dd05f34e1793ef61a6bb966be7ce0ff3f",
-   "pushed": "2026-11-27T04:02:31Z",
+   "sha": "839e14f42e7e53155c66c704853b372fed816958",
+   "pushed": "2026-11-27T18:23:40Z",
    "revisado": "2026-11-27"
   },
   "NVIDIA/auto-ontology": {
@@ -132,8 +132,8 @@
    "revisado": "2026-11-27"
   },
   "google/or-tools": {
-   "sha": "b756855e7b1b72e3aa4012a0842f52a9cc104b68",
-   "pushed": "2026-11-26T22:07:25Z",
+   "sha": "bf6d356392ad4230ae55230a2256407aa0de84a8",
+   "pushed": "2026-11-27T17:30:53Z",
    "revisado": "2026-11-27"
   },
   "google/yapf": {
@@ -147,8 +147,8 @@
    "revisado": "2026-11-27"
   },
   "google/oss-fuzz": {
-   "sha": "3a14bf2b977624aac553c60ba3513a256af60117",
-   "pushed": "2026-11-26T18:46:44Z",
+   "sha": "d8fa4e0a84cb930099dcd3cfdf441695d6002938",
+   "pushed": "2026-11-27T18:58:52Z",
    "revisado": "2026-11-27"
   },
   "google/guice": {
@@ -160,29 +160,29 @@
    "sha": "0eab578a8935e26aa41c2b7dc9f5ab00f790a037",
    "pushed": "2026-11-19T05:20:52Z",
    "revisado": "2026-11-27"
+  },
+  "google/sentencepiece": {
+   "sha": "286196c7d15c484df49e6764bea195d64cf6259c",
+   "pushed": "2026-11-27T16:57:53Z",
+   "revisado": "2026-11-27"
+  },
+  "google/osv-scanner": {
+   "sha": "66586f4a200a7b08f0e202ac1894bc7670424ede",
+   "pushed": "2026-11-26T20:57:22Z",
+   "revisado": "2026-11-27"
+  },
+  "google/go-github": {
+   "sha": "f73d443151bf3e64fe52b622adebdc521ef4ca5f",
+   "pushed": "2026-11-26T21:57:52Z",
+   "revisado": "2026-11-27"
+  },
+  "google/skia": {
+   "sha": "61778decce68b2ffe1da862f16b0c535a6526e3f",
+   "pushed": "2026-11-27T16:54:53Z",
+   "revisado": "2026-11-27"
   }
  },
  "cola": [
-  {
-   "repo": "google/sentencepiece",
-   "pushed": "2026-11-25T10:06:28Z",
-   "estrellas": 12182
-  },
-  {
-   "repo": "google/osv-scanner",
-   "pushed": "2026-11-25T20:56:43Z",
-   "estrellas": 11628
-  },
-  {
-   "repo": "google/go-github",
-   "pushed": "2026-11-25T17:23:17Z",
-   "estrellas": 11344
-  },
-  {
-   "repo": "google/skia",
-   "pushed": "2026-11-25T19:46:50Z",
-   "estrellas": 11051
-  },
   {
    "repo": "NVIDIA/cutlass",
    "pushed": "2026-11-25T02:16:17Z",
@@ -892,6 +892,11 @@
    "repo": "google/grain",
    "pushed": "2026-11-25T01:42:43Z",
    "estrellas": 812
+  },
+  {
+   "repo": "google-gemini/demolab",
+   "pushed": "2026-11-27T13:47:31Z",
+   "estrellas": 799
   },
   {
    "repo": "google/turbinia",

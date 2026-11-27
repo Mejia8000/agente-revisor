@@ -1,41 +1,30 @@
 # google-deepmind/mujoco
 
-_Se revisaron los cambios: 9 commits, 15 archivos._
+_Se revisaron los cambios: 18 commits, 61 archivos._
 
-EN UNA LÍNEA: El simulador de física MuJoco de Google DeepMind recibió mejoras de velocidad en contactos, matrices y su solver de restricciones.
+EN UNA LÍNEA: Actualización del simulador físico MuJoCo que acelera cálculos matemáticos y corrige fallos en la detección de contactos con objetos deformables.
 
-UTILIDAD: baja
+UTILIDAD: Baja
 
 ## Qué es
-MuJoco es un simulador de física de propósito general para sistemas con muchas articulaciones y contactos. Es un repositorio público de Google DeepMind en GitHub con más de 18 000 estrellas. El código está escrito principalmente en C y C++.
+Es un simulador de física creado por Google DeepMind, utilizado principalmente para robótica, biomecánica y entrenamiento de inteligencia artificial orientada al movimiento físico (aprendizaje por refuerzo).
 
 ## Qué cambió
-Hechos (lo que muestra el material):
-- Se optimizó el cálculo de restricciones de contacto con cono elíptico (fricción en contactos).
-- Se creó la función mj_effLower para armar la parte triangular inferior de una matriz dispersa (CSR) de la métrica discreta, junto con funciones para calcular su tamaño y memoria temporal.
-- Se aceleró la suma escalar incremental en matrices dispersas cuando el factor de escala es cero.
-- Se aceleró la factorización de Cholesky densa (mju_cholFactor) y se corrigió un error al factorizar un panel de dos columnas con rango deficiente.
-- Se aceleró la factorización de la matriz de inercia dispersa (mj_factorI).
-- Se aceleró el solver PGS, incluyendo bloques para contactos elípticos de tamaño 3, 4 y 6.
-- Se aceleró el conteo de restricciones de contacto y la rotación del Jacobiano para objetos flexibles (flex).
-- Se agregaron pruebas automáticas que comparan las versiones rápidas con versiones de referencia lentas.
-
-Suposiciones (sin confirmar):
-- Que estas mejoras reducen el tiempo de ejecución en simulaciones reales, porque el material no muestra mediciones de velocidad.
-- Que mj_effLower se usa en todos los casos donde antes se usaba MakeMetricLower.
+* **Resolución matemática más rápida:** Se aceleraron las operaciones con matrices grandes y dispersas y se cambió el algoritmo numérico (usando factorización Cholesky directa en el modo "Newton") para resolver modelos deformables más rápido y sin advertencias falsas de inestabilidad.
+* **Corrección en colisiones 2D:** Se arregló un problema donde las colisiones entre formas de cápsula y mallas flexibles 2D (como telas) fallaban o generaban errores matemáticos (valores "NaN" o no válidos).
+* **Detección de choques acelerada:** Se optimizó el descarte inicial de colisiones (fase amplia) mediante algoritmos de ordenamiento más rápidos (*radix sort*) y pruebas mejoradas de cajas delimitadoras.
+* **Tratamiento de errores en gráficos:** En el renderizador (Filament), pasar configuraciones o datos inválidos ahora genera advertencias (*warnings*) en vez de provocar cierres o errores críticos directos.
 
 ## Cosas útiles
-- Funciones del motor que se pueden reutilizar: mj_effLower, mj_effLowerCap, mj_effLowerScratch, rotateJac3, mju_cholFactor, mj_factorI, solPGS, mju_addToSclSparseInc.
-- Ejemplos de código en los archivos de prueba (test) que muestran cómo verificar contactos elípticos, factorización de inercia, Cholesky y el solver PGS.
-- Repositorio público en GitHub.
+* El motor es completamente gratuito y de código abierto.
+* Dispone de librerías para Python y C/C++ muy optimizadas para cálculo físico y simulación de articulaciones o robots.
+* *(Nota: No incluye APIs de lenguaje, modelos LLM ni componentes para páginas web).*
 
 ## Avisos
-- Es código de bajo nivel en C/C++; no es una herramienta lista para usar desde una aplicación web sin una capa de conexión para otros lenguajes (no se muestra en el material).
-- No se indica la licencia, el costo ni los términos de uso en el material revisado (sin confirmar).
-- Requiere conocimientos de compilación, gestión de memoria y física de cuerpos rígidos.
-- Los cambios son internos del motor; no son una herramienta de IA ni un conector a APIs web.
+* **Licencia:** Apache 2.0 (gratuito, código abierto para uso personal y comercial).
+* **Compatibilidad:** Los modelos de simulación existentes que dependían del contacto entre cápsulas y telas 2D pueden cambiar ligeramente de comportamiento tras las correcciones.
+* **Requisitos:** Requiere entornos de desarrollo con C/C++ o Python; si se usa aceleración masiva en tarjeta gráfica (MuJoCo Warp), requiere hardware compatible (sin confirmar si aplica solo a tarjetas NVIDIA).
 
 ## ¿Sirve para sus proyectos?
-No. Sus proyectos son personales con IA gratis, conectores a APIs, modelos propios, apps web y automatizaciones. MuJoco es un simulador de física en C/C++ orientado a robótica y dinámica, no una herramienta de IA generativa ni de integración web. Solo serviría si un proyecto necesita simulación física realista y puede integrar código C/C++ (sin confirmar si existen conexiones fáciles para web).
-
-_(Informe hecho por nvidia/nemotron-3.5-super-vl:free, respaldo)_
+No. 
+Sus proyectos se centran en aplicaciones web, automatizaciones y conectores de IA gratuita (como modelos de lenguaje o procesamiento de texto). MuJoCo está diseñado únicamente para simulación de físicas y movimientos mecánicos complejos, por lo que no aporta funcionalidad a sistemas web ni a flujos de trabajo automatizados.

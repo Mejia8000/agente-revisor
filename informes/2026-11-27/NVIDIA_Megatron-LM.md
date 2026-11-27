@@ -1,48 +1,30 @@
 # NVIDIA/Megatron-LM
 
-_Se revisaron los cambios: 4 commits, 32 archivos._
+_Se revisaron los cambios: 6 commits, 43 archivos._
 
-EN UNA LÍNEA: NVIDIA agregó soporte opcional para Liger RMSNorm, actualizó pruebas de inferencia en H100 y cambió cómo su sistema de integración continua usa los tokens de GitHub.
+EN UNA LÍNEA: Herramienta avanzada de NVIDIA para entrenar modelos de inteligencia artificial gigantescos en supercomputadoras y redes de muchas tarjetas gráficas.
 
-UTILIDAD: baja
+UTILIDAD: Baja
 
 ## Qué es
-Megatron-LM es un repositorio de NVIDIA para investigar y entrenar modelos de lenguaje tipo transformer a gran escala. Tiene más de 18 mil estrellas. Incluye código para modelos como GPT y HybridModel, que puede usar mezcla de expertos (MoE).
+Es un sistema especializado de NVIDIA para entrenar modelos masivos de lenguaje (como GPT) repartiendo el trabajo de cálculo entre decenas o cientos de procesadores gráficos (tarjetas GPU potentes). No está pensado para usar modelos en el día a día, sino para crearlos y entrenarlos a escala empresarial.
 
 ## Qué cambió
-Hechos del material:
-- Se agregó una opción llamada `rmsnorm_impl` para elegir el tipo de normalización en HybridModel: "te" (Transformer Engine, el predeterminado) o "liger" (Liger RMSNorm).
-- Se crearon nuevos archivos de código para usar Liger RMSNorm: `megatron/core/ops/norm/backends.py` y `megatron/core/ops/norm/liger_norm.py`.
-- GPTModel no acepta la opción "liger"; solo HybridModel.
-- Para usar "liger" se necesitan otros ajustes: `normalization="RMSNorm"`, `transformer_impl="transformer_engine"`, `fused_residual_rmsnorm=False`, entre otros.
-- Se agregó `liger-kernel==0.8.5` como dependencia opcional, solo para sistemas Linux.
-- Se actualizaron los valores esperados (archivos golden values) de varias pruebas de inferencia en tarjetas H100, como latencia, tiempos y uso de memoria.
-- En el sistema de pruebas automáticas (CI) de GitHub, ahora se usan dos tokens distintos: uno para leer información (`READ_TOKEN`) y otro para aprobar (`APPROVAL_TOKEN`).
-- Se corrigió cómo se registran las pérdidas de balanceo de carga de MoE para evitar errores al leer la configuración.
-- Se agregaron pruebas nuevas para Liger RMSNorm y para el comportamiento determinista de los kernels.
-
-Suposiciones (sin confirmar):
-- Que separar los tokens de GitHub mejora la seguridad del sistema de pruebas.
-- Que Liger RMSNorm puede ahorrar memoria en algunos casos (el material no lo dice).
+- **Mayor seguridad al cargar archivos:** Se modificó la lectura de archivos de guardado (`.metadata` de PyTorch) para restringir qué tipos de datos se pueden abrir. Esto evita que un archivo manipulado con malas intenciones ejecute programas dañinos en el servidor.
+- **Mejoras en el optimizador "Muon":** Se reorganizó la forma en que las tarjetas gráficas se reparten el trabajo para evitar esperas innecesarias cuando los cálculos ya están dentro del mismo procesador.
+- **Compatibilidad con nuevas librerías:** Se adaptó el código para funcionar con versiones recientes de *Transformer Engine* (versión 2.21 en adelante) y se actualizó el paquete de aceleración *FlashAttention-4*.
+- **Correcciones matemáticas:** Se arregló la forma en que se miden ciertos gradientes distribuidos (parámetro `softmax_offset`) para que no se omitan partes del cálculo al entrenar en paralelo.
+- **Ajustes en pruebas internas:** Se separaron pruebas de red (comunicación NCCL) para evitar fallos y bloqueos en las pruebas automáticas.
 
 ## Cosas útiles
-- Código para activar Liger RMSNorm en HybridModel: usar `--normalization RMSNorm --rmsnorm-impl liger`.
-- Clase `LigerRMSNorm` en `megatron/core/ops/norm/liger_norm.py`, reutilizable como backend de normalización.
-- Función `get_norm_module_spec` en `megatron/core/ops/norm/backends.py`.
-- Pruebas de ejemplo que comparan Liger contra Transformer Engine (`tests/unit_tests/ops/test_liger_norm.py` y `tests/unit_tests/models/test_liger_hybrid.py`).
-- Scripts y flujos de CI para manejar tokens de lectura y aprobación en GitHub.
-- Valores actualizados de referencia para pruebas de inferencia en H100.
+- **Código de seguridad reutilizable:** El archivo `megatron/core/safe_globals.py` tiene un ejemplo práctico de cómo crear una lista blanca de clases seguras para `pickle` en Python, lo cual sirve si en algún proyecto propio necesitas abrir archivos serializados evitando virus o inyecciones de código.
+- *Nota:* En esta actualización no se incluyen APIs gratuitas ni modelos de IA listos para descargar.
 
 ## Avisos
-- Requiere tarjetas gráficas NVIDIA; las pruebas se hicieron en H100.
-- Liger RMSNorm solo sirve para HybridModel, no para GPTModel.
-- No es más rápido: el material dice que Liger suele ser más lento que Transformer Engine.
-- `liger-kernel` solo tiene archivos precompilados para Linux; en otros sistemas puede no funcionar.
-- Hay que instalar `liger-kernel` por separado (versión 0.8.5 o superior).
-- Los cambios de CI dependen de secretos internos de NVIDIA y no se pueden copiar tal cual a otros proyectos sin adaptación.
-- El material no menciona la licencia ni los costos (sin confirmar).
+- **Requisitos de hardware extremos:** Requiere tarjetas gráficas empresariales muy caras de NVIDIA (como A100, H100 o Blackwell GB200) y Linux. No está diseñado para funcionar en computadoras de escritorio comunes ni en procesadores convencionales (CPU).
+- **Costos elevados:** Alquilar la infraestructura necesaria en la nube para usar Megatron-LM tiene costos muy altos (sin confirmar el costo exacto por hora, pero suele ser de cientos a miles de dólares en gran escala).
+- **Riesgo y complejidad:** Si se configuran mal los parámetros de paralelismo o las versiones de las librerías auxiliares de NVIDIA, los procesos de entrenamiento fallan o se bloquean por completo.
 
 ## ¿Sirve para sus proyectos?
-No. Este repositorio es para entrenar modelos grandes de IA con muchos GPUs, no para proyectos personales gratuitos, conectores a APIs sencillas, apps web o automatizaciones ligeras. Aunque tiene código útil de normalización, depende de un entorno complejo y hardware potente.
-
-_(Informe hecho por nvidia/nemotron-3.5-super-vl:free, respaldo)_
+**No.** 
+Megatron-LM es una herramienta para laboratorios y empresas que entrenan modelos masivos desde cero en granjas de servidores. Para proyectos personales con APIs gratuitas, aplicaciones web o automatizaciones, esta herramienta es totalmente innecesaria, incompatible con niveles gratuitos y requiere conocimientos de computación distribuida de alto nivel. Para tus objetivos es mucho más práctico usar librerías ligeras como las de Hugging Face o conectarte a proveedores de modelos vía API estándar.

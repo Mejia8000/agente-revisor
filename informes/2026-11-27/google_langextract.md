@@ -1,57 +1,27 @@
 # google/langextract
 
-_Se revisaron los cambios: 1 commits, 2 archivos._
+_Se revisaron los cambios: 2 commits, 3 archivos._
 
-EN UNA LÍNEA: Langextract es una librería de Python que organiza información de textos libres usando inteligencia artificial, y ahora detecta mejor cuando OpenAI no devuelve respuesta en envíos por lotes.
+EN UNA LÍNEA: Librería de Python para extraer datos ordenados a partir de texto con IA, que ahora maneja mejor los errores y formatos en tareas por lotes de Gemini.
 
-UTILIDAD: media
+UTILIDAD: Media
 
 ## Qué es
-Hechos:
-- Langextract es una librería del lenguaje de programación Python.
-- Sirve para extraer información organizada (estructurada) de textos que no tienen formato previo, usando modelos de lenguaje (inteligencia artificial que lee y escribe texto).
-- Permite vincular cada dato extraído con su ubicación exacta en el texto original y tiene una visualización interactiva.
-- El repositorio tiene 39 374 estrellas.
-- El cambio reciente (commit #636) solo afecta a la conexión con OpenAI cuando se envían muchos trabajos a la vez (envíos por lotes).
-
-Suposiciones (sin confirmar):
-- Que el repositorio pertenece a la empresa Google.
-- Que la visualización interactiva se puede usar sin pagar.
+Es una herramienta en Python desarrollada por Google (`langextract`) pensada para leer textos largos o desorganizados y extraer información estructurada (como datos en formato JSON o tablas) usando modelos de inteligencia artificial, indicando de qué parte del texto original salió cada dato.
 
 ## Qué cambió
-Hechos:
-- Se modificó el archivo `langextract/providers/openai_batch.py`.
-- Ahora el programa revisa primero si OpenAI envió una "negativa" (refusal) en la respuesta. Si la hay, detiene el proceso con un error, incluso si también hay contenido.
-- Si el contenido falta o está vacío, y la razón de finalización no es "stop" (final normal), lanza un error con detalles.
-- Cuando la razón es que se agotó el límite de salida ("length"), el mensaje sugiere subir el valor `max_output_tokens`.
-- Se agregaron pruebas automáticas en `tests/openai_batch_test.py` para estos casos: negativa con contenido, contenido vacío por límite de tokens, filtro de contenido, contenido nulo, y contenido vacío con final normal (que se acepta).
-
-Suposiciones (sin confirmar):
-- Que este cambio evita que el programa guarde resultados vacíos o falle sin aviso.
-- Que la mejora aplica solo a OpenAI y no a otros proveedores de inteligencia artificial.
+En esta actualización se arreglaron dos detalles al trabajar en modo por lotes (*batch*, procesar muchos textos a la vez) con la IA Gemini:
+1. **Control de formato personalizado:** Ahora el sistema acepta y envía correctamente las configuraciones de formato y esquemas JSON que defina el usuario (`response_schema`, `response_json_schema`, `response_mime_type`).
+2. **Mejor control de errores:** Si el archivo de resultados por lotes contiene una línea dañada o que no sea un objeto JSON válido, la herramienta avisa del fallo sin mostrar el texto del documento en el mensaje de error (evitando exponer datos privados) y permite ignorar el fallo si así se configuró.
 
 ## Cosas útiles
-Hechos:
-- Es software de Python, por lo que se puede instalar y usar en proyectos propios.
-- Las pruebas nuevas muestran ejemplos de código para procesar respuestas de OpenAI en formato JSONL (un objeto por línea).
-- El material no menciona modelos, APIs ni herramientas gratis específicas.
-
-Suposiciones (sin confirmar):
-- Que los ejemplos de prueba se pueden copiar y reutilizar en otros proyectos.
-- Que se puede conectar con APIs de modelos de lenguaje sin costo (depende del proveedor).
+* **Código reutilizable para esquemas:** En los archivos de prueba se muestra cómo enviar un esquema JSON a Gemini para obligar al modelo a responder con una estructura de datos exacta.
+* **Integración con Gemini:** La librería permite conectarse a los modelos de lenguaje de Google.
 
 ## Avisos
-Hechos:
-- Se necesita saber programar en Python.
-- Se necesita un modelo de lenguaje (como los de OpenAI), que puede tener costo según el proveedor.
-- El cambio descrito solo cubre al proveedor OpenAI en modo envíos por lotes.
-- El material no menciona la licencia ni los costos exactos.
-
-Suposiciones (sin confirmar):
-- Que usar OpenAI implica pagar después de cierto límite (sin confirmar si existe plan gratuito).
-- Que la librería está lista para usar en aplicaciones web públicas.
+* **Requisitos:** Requiere programar en Python y tener instaladas librerías de conexión con Google (como `google-genai`).
+* **Costos y límites:** El código modificado interactúa con servicios de Google Cloud (Vertex AI y almacenamiento en Cloud Storage). Aunque la API estándar de Gemini ofrece niveles gratuitos (*sin confirmar* si este modo exacto por lotes entra en la cuota gratuita), el uso en Google Cloud generalmente requiere registrar una cuenta y puede generar costos si se superan los límites de prueba.
+* **Licencia:** Es un proyecto público en GitHub de Google, pero la licencia exacta no se especifica en el texto provisto (*sin confirmar*).
 
 ## ¿Sirve para sus proyectos?
-Sí, si usan Python y se conectan a APIs de modelos de lenguaje para extraer datos de textos, especialmente si envían muchos trabajos a la vez a OpenAI. El cambio ayuda a detectar errores cuando la inteligencia artificial se niega a responder o se queda sin espacio. No sirve si no usan Python o no usan modelos de lenguaje externos, y esos modelos pueden no ser totalmente gratis.
-
-_(Informe hecho por nvidia/nemotron-3.5-super-vl:free, respaldo)_
+Sí. Es muy útil si creas automatizaciones o aplicaciones web donde recibes textos sin formato (correos, mensajes, documentos) y necesitas que una IA extraiga datos clave organizados en JSON para guardarlos en una base de datos. Además, al soportar la API de Gemini, facilita hacer pruebas aprovechando las opciones de acceso que ofrece Google.

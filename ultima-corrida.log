@@ -2,50 +2,31 @@
   inicio_corrida = dt.datetime.utcnow().isoformat() + "Z"
 /home/runner/work/agente-revisor/agente-revisor/revisor.py:183: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   limite = (dt.datetime.utcnow() - dt.timedelta(days=14)).isoformat() + "Z"
-Por revisar: 15 | en cola total: 341
+Por revisar: 15 | en cola total: 338
 → google-gemini/gemini-cli
 → google/langextract
   503: espero 60s y reintento
-  Gemini falló: The read operation timed out
-→ NVIDIA/NemoClaw
-→ google/fonts
-→ NVIDIA/Megatron-LM
-  Gemini falló: The read operation timed out
-→ google-deepmind/mujoco
-  429: espero 60s y reintento
-  429: espero 120s y reintento
-  Gemini falló: The read operation timed out
-→ NVIDIA/TensorRT-LLM
-  429: espero 60s y reintento
-  429: espero 120s y reintento
-  Gemini falló: HTTP Error 429: Too Many Requests
-→ NVIDIA/auto-ontology
-  503: espero 60s y reintento
-  429: espero 120s y reintento
-  Gemini falló: HTTP Error 503: Service Unavailable
-→ google/ax
-  429: espero 60s y reintento
-  429: espero 120s y reintento
-  Gemini falló: HTTP Error 429: Too Many Requests
-→ google/or-tools
-  429: espero 60s y reintento
-  Gemini falló: The read operation timed out
-→ google/yapf
-  429: espero 60s y reintento
   503: espero 120s y reintento
-→ NVIDIA/TensorRT
-  429: espero 60s y reintento
-  429: espero 120s y reintento
+→ google/skills
+→ NVIDIA/NemoClaw
+→ NVIDIA/Megatron-LM
+→ google-deepmind/mujoco
+  503: espero 60s y reintento
+→ google/libphonenumber
+  503: espero 60s y reintento
+  503: espero 120s y reintento
+  Gemini falló: HTTP Error 503: Service Unavailable
+→ google-gemini/cookbook
+  503: espero 60s y reintento
+→ NVIDIA/TensorRT-LLM
+→ google/or-tools
 → google/oss-fuzz
+  503: espero 60s y reintento
+  503: espero 120s y reintento
+→ google/sentencepiece
+→ google/osv-scanner
+→ google/go-github
   429: espero 60s y reintento
   429: espero 120s y reintento
-  Gemini falló: HTTP Error 429: Too Many Requests
-→ google/guice
-  429: espero 60s y reintento
-  429: espero 120s y reintento
-  Gemini falló: HTTP Error 429: Too Many Requests
-→ NVIDIA/cosmos
-  429: espero 60s y reintento
-  429: espero 120s y reintento
-  Gemini falló: HTTP Error 429: Too Many Requests
-Pendientes en cola: 326
+→ google/skia
+Pendientes en cola: 323

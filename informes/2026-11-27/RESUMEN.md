@@ -10,3 +10,16 @@
 - **media** · [google/oss-fuzz](google_oss-fuzz.md) — OSS-Fuzz es una herramienta de Google que busca errores y fallos de seguridad en software de código abierto usando pruebas automáticas llamadas fuzzing.
 - **baja** · [google/guice](google_guice.md) — Guice es un framework gratuito de Google para administrar dependencias en aplicaciones Java 11 o superior.
 - **media** · [NVIDIA/cosmos](NVIDIA_cosmos.md) — NVIDIA Cosmos es una plataforma abierta de modelos de IA para entender y simular el mundo físico, enfocada en robots y vehículos autónomos.
+- **media** · [google/langextract](google_langextract.md) — Librería de Python para extraer datos ordenados a partir de texto con IA, que ahora maneja mejor los errores y formatos en tareas por lotes de Gemini.
+- **baja** · [google/skills](google_skills.md) — Corrección en las instrucciones de Google Cloud Operator para operar únicamente por organización y evitar errores al invocar proyectos individuales.
+- **baja** · [NVIDIA/Megatron-LM](NVIDIA_Megatron-LM.md) — Herramienta avanzada de NVIDIA para entrenar modelos de inteligencia artificial gigantescos en supercomputadoras y redes de muchas tarjetas gráficas.
+- **baja** · [google-deepmind/mujoco](google-deepmind_mujoco.md) — Actualización del simulador físico MuJoCo que acelera cálculos matemáticos y corrige fallos en la detección de contactos con objetos deformables.
+- **alta** · [google/libphonenumber](google_libphonenumber.md) — Google actualizó su librería para leer, escribir y validar números de teléfono de otros países en Java, C++ y JavaScript, corrigiendo errores y mejorando la detección de números con letras.
+- **media** · [google-gemini/cookbook](google-gemini_cookbook.md) — Correcciones menores de sintaxis y texto en las guías oficiales para conectar con la API de Gemini mediante JavaScript, comandos REST y Python.
+- **sin dato** · [NVIDIA/TensorRT-LLM](NVIDIA_TensorRT-LLM.md) — ver informe
+- **baja** · [google/or-tools](google_or-tools.md) — Google añadió y actualizó las guías de migración a la versión 10.0-rc.1 para sus herramientas de optimización de rutas y restricciones (CP-SAT).
+- **baja** · [google/oss-fuzz](google_oss-fuzz.md) — Actualización masiva de las imágenes de prueba a Ubuntu 24.04 con ajustes de compilación y la incorporación del proyecto Quinn.
+- **media** · [google/sentencepiece](google_sentencepiece.md) — Una biblioteca rápida y de código abierto para entrenar y ejecutar tokenizadores de texto (dividir texto en subpalabras y reconstruirlo) orientada a modelos de lenguaje.
+- **media** · [google/osv-scanner](google_osv-scanner.md) — Herramienta de seguridad que detecta y ayuda a corregir vulnerabilidades en las librerías de tus proyectos y contenedores usando la base de datos pública OSV.dev.
+- **media** · [google/go-github](google_go-github.md) — Biblioteca oficial en Go para conectarse y automatizar todas las funciones de la API REST v3 de GitHub.
+- **baja** · [google/skia](google_skia.md) — Una biblioteca de programación creada por Google para dibujar gráficos en dos dimensiones (texto, figuras e imágenes).
