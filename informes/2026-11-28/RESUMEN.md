@@ -1,0 +1,11 @@
+- **baja** · [google/skills](google_skills.md) — Actualización en las instrucciones de configuración para que los asistentes esperen unos minutos mientras se activan los permisos automáticos en Google Cloud.
+- **baja** · [google/gson](google_gson.md) — Biblioteca de Java para convertir objetos de código a texto en formato JSON y viceversa, con mejoras recientes en fechas, números grandes y colas de prioridad.
+- **baja** · [NVIDIA/Megatron-LM](NVIDIA_Megatron-LM.md) — Correcciones internas en Megatron-LM para evitar bloqueos entre tarjetas gráficas y errores de memoria al generar texto rápido en grandes servidores.
+- **media** · [google-deepmind/mujoco](google-deepmind_mujoco.md) — MuJoCo agregó soporte para cámaras con proyección fisheye y distorsión de lente, y corrigió la búsqueda de archivos de mallas en modelos incluidos.
+- **baja** · [NVIDIA/TensorRT-LLM](NVIDIA_TensorRT-LLM.md) — Sistema de aceleración de modelos de NVIDIA que ahora compila código en paralelo y mejora el soporte para modelos con imágenes y texto.
+- **media** · [google/ax](google_ax.md) — Google lanzó AX, un runtime de código abierto para orquestar agentes de IA con tareas y sesiones.
+- **baja** · [NVIDIA/cutlass](NVIDIA_cutlass.md) — CUTLASS es una biblioteca gratuita de NVIDIA para crear programas muy rápidos de multiplicación de matrices en tarjetas gráficas NVIDIA usando CUDA.
+- **media** · [google/adk-recipes](google_adk-recipes.md) — Colección de ejemplos y plantillas de código de Google para crear agentes de inteligencia artificial y automatizaciones.
+- **baja** · [google/auto](google_auto.md) — Conjunto de herramientas para Java que genera automáticamente código repetitivo (como clases de datos, constructores y fábricas) durante la compilación.
+- **baja** · [google/benchmark](google_benchmark.md) — Una herramienta para medir con alta precisión cuánto tiempo y memoria tardan en ejecutarse funciones o algoritmos pequeños en C++, Python y Rust.
+- **alta** · [NVIDIA/garak](NVIDIA_garak.md) — Garak es una herramienta gratuita de línea de comandos que busca fallos de seguridad en modelos de lenguaje (IA), como inyección de prompts o filtración de datos.

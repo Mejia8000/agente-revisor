@@ -5,6 +5,7 @@ Ordenado de más a menos útil; dentro de cada grupo, lo más reciente primero.
 
 ## Utilidad alta
 
+- [NVIDIA/garak](2026-11-28/NVIDIA_garak.md) (2026-11-28) — Garak es una herramienta gratuita de línea de comandos que busca fallos de seguridad en modelos de lenguaje (IA), como inyección de prompts o filtración de datos.
 - [google/libphonenumber](2026-11-27/google_libphonenumber.md) (2026-11-27) — Google actualizó su librería para leer, escribir y validar números de teléfono de otros países en Java, C++ y JavaScript, corrigiendo errores y mejorando la detección de números con letras.
 - [google/guava](2026-11-26/google_guava.md) (2026-11-26) — Google simplificó su librería Guava para Java al usar clases estándar del lenguaje en lugar de copias propias.
 - [google/libphonenumber](2026-11-26/google_libphonenumber.md) (2026-11-26) — Es una librería de Google para leer, formatear y validar números de teléfono de cualquier país en Java, C++ y JavaScript.
@@ -13,6 +14,9 @@ Ordenado de más a menos útil; dentro de cada grupo, lo más reciente primero.
 
 ## Utilidad media
 
+- [google-deepmind/mujoco](2026-11-28/google-deepmind_mujoco.md) (2026-11-28) — MuJoCo agregó soporte para cámaras con proyección fisheye y distorsión de lente, y corrigió la búsqueda de archivos de mallas en modelos incluidos.
+- [google/ax](2026-11-28/google_ax.md) (2026-11-28) — Google lanzó AX, un runtime de código abierto para orquestar agentes de IA con tareas y sesiones.
+- [google/adk-recipes](2026-11-28/google_adk-recipes.md) (2026-11-28) — Colección de ejemplos y plantillas de código de Google para crear agentes de inteligencia artificial y automatizaciones.
 - [google/langextract](2026-11-27/google_langextract.md) (2026-11-27) — Langextract es una librería de Python que organiza información de textos libres usando inteligencia artificial, y ahora detecta mejor cuando OpenAI no devuelve respuesta en envíos por lotes.
 - [NVIDIA/TensorRT-LLM](2026-11-27/NVIDIA_TensorRT-LLM.md) (2026-11-27) — TensorRT-LLM de NVIDIA optimiza la ejecución de modelos de lenguaje en GPUs NVIDIA, con soporte nuevo para chips Rubin y correcciones en sus pruebas internas.
 - [NVIDIA/auto-ontology](2026-11-27/NVIDIA_auto-ontology.md) (2026-11-27) — Auto Ontology es una librería abierta de NVIDIA que crea automáticamente mapas semánticos sobre bases de datos para que agentes de IA respondan preguntas con SQL de forma más precisa y explicable.
@@ -37,6 +41,13 @@ Ordenado de más a menos útil; dentro de cada grupo, lo más reciente primero.
 
 ## Utilidad baja
 
+- [google/skills](2026-11-28/google_skills.md) (2026-11-28) — Actualización en las instrucciones de configuración para que los asistentes esperen unos minutos mientras se activan los permisos automáticos en Google Cloud.
+- [google/gson](2026-11-28/google_gson.md) (2026-11-28) — Biblioteca de Java para convertir objetos de código a texto en formato JSON y viceversa, con mejoras recientes en fechas, números grandes y colas de prioridad.
+- [NVIDIA/Megatron-LM](2026-11-28/NVIDIA_Megatron-LM.md) (2026-11-28) — Correcciones internas en Megatron-LM para evitar bloqueos entre tarjetas gráficas y errores de memoria al generar texto rápido en grandes servidores.
+- [NVIDIA/TensorRT-LLM](2026-11-28/NVIDIA_TensorRT-LLM.md) (2026-11-28) — Sistema de aceleración de modelos de NVIDIA que ahora compila código en paralelo y mejora el soporte para modelos con imágenes y texto.
+- [NVIDIA/cutlass](2026-11-28/NVIDIA_cutlass.md) (2026-11-28) — CUTLASS es una biblioteca gratuita de NVIDIA para crear programas muy rápidos de multiplicación de matrices en tarjetas gráficas NVIDIA usando CUDA.
+- [google/auto](2026-11-28/google_auto.md) (2026-11-28) — Conjunto de herramientas para Java que genera automáticamente código repetitivo (como clases de datos, constructores y fábricas) durante la compilación.
+- [google/benchmark](2026-11-28/google_benchmark.md) (2026-11-28) — Una herramienta para medir con alta precisión cuánto tiempo y memoria tardan en ejecutarse funciones o algoritmos pequeños en C++, Python y Rust.
 - [NVIDIA/Megatron-LM](2026-11-27/NVIDIA_Megatron-LM.md) (2026-11-27) — NVIDIA agregó soporte opcional para Liger RMSNorm, actualizó pruebas de inferencia en H100 y cambió cómo su sistema de integración continua usa los tokens de GitHub.
 - [google-deepmind/mujoco](2026-11-27/google-deepmind_mujoco.md) (2026-11-27) — El simulador de física MuJoco de Google DeepMind recibió mejoras de velocidad en contactos, matrices y su solver de restricciones.
 - [google/guice](2026-11-27/google_guice.md) (2026-11-27) — Guice es un framework gratuito de Google para administrar dependencias en aplicaciones Java 11 o superior.
